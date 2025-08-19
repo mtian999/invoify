@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Developed by"
+    },
+    "landing": {
+        "hero": {
+            "title": "Create Professional Invoices in Minutes",
+            "subtitle": "Free, fast, and feature-rich invoice generator. No registration required.",
+            "cta": "Start Creating Invoices",
+            "tryDemo": "Try Demo"
+        },
+        "features": {
+            "title": "Why Choose Invoify?",
+            "subtitle": "Everything you need to create professional invoices",
+            "items": {
+                "free": {
+                    "title": "Completely Free",
+                    "description": "No hidden fees, no subscriptions. Create unlimited invoices at no cost."
+                },
+                "templates": {
+                    "title": "Professional Templates",
+                    "description": "Choose from multiple beautifully designed invoice templates."
+                },
+                "export": {
+                    "title": "Multiple Export Formats",
+                    "description": "Export as PDF, JSON, XLSX, CSV, or XML. Send directly via email."
+                },
+                "preview": {
+                    "title": "Live Preview",
+                    "description": "See your invoice update in real-time as you fill out the form."
+                },
+                "storage": {
+                    "title": "Local Storage",
+                    "description": "Save invoices in your browser for easy access and future editing."
+                },
+                "multilingual": {
+                    "title": "Multi-language Support",
+                    "description": "Create invoices in multiple languages with full internationalization."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "How It Works",
+            "subtitle": "Simple 4-step process to create your invoice",
+            "steps": {
+                "step1": {
+                    "title": "Enter Details",
+                    "description": "Fill in sender and receiver information"
+                },
+                "step2": {
+                    "title": "Add Items",
+                    "description": "Add line items with quantities and prices"
+                },
+                "step3": {
+                    "title": "Customize",
+                    "description": "Add payment info, taxes, and signature"
+                },
+                "step4": {
+                    "title": "Export & Send",
+                    "description": "Download PDF or send via email"
+                }
+            }
+        },
+        "cta": {
+            "title": "Ready to Create Your First Invoice?",
+            "subtitle": "Join thousands of users who trust Invoify for their invoicing needs",
+            "button": "Get Started Now"
+        }
     }
 }

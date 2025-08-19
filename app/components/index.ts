@@ -5,6 +5,11 @@ import BaseNavbar from "./layout/BaseNavbar";
 import BaseFooter from "./layout/BaseFooter";
 
 /* =========================
+   * Landing
+   ========================= */
+import LandingPage from "./landing/LandingPage";
+
+/* =========================
    * Invoice
    ========================= */
 import InvoiceMain from "./invoice/InvoiceMain";
@@ -101,6 +106,7 @@ import DevDebug from "./dev/DevDebug";
 export {
     BaseNavbar,
     BaseFooter,
+    LandingPage,
     InvoiceMain,
     InvoiceForm,
     InvoiceActions,
