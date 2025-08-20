@@ -1,7 +1,7 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next-intl/link";
 
 // Icons
 import { 
@@ -22,6 +22,7 @@ import { Badge } from "@/components/ui/badge";
 
 const LandingPage = () => {
     const t = useTranslations("landing");
+    const locale = useLocale();
 
     const features = [
         {
@@ -99,13 +100,13 @@ const LandingPage = () => {
                         </p>
                         
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/en/invoice">
+                            <Link href="/invoice">
                                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
                                     {t("hero.cta")}
                                     <ArrowRight className="ml-2 h-5 w-5" />
                                 </Button>
                             </Link>
-                            <Link href="/en/invoice">
+                            <Link href="/invoice">
                                 <Button variant="outline" className="px-8 py-3 text-lg">
                                     {t("hero.tryDemo")}
                                 </Button>
@@ -210,7 +211,7 @@ const LandingPage = () => {
                         <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
                             {t("cta.subtitle")}
                         </p>
-                        <Link href="/en/invoice">
+                        <Link href="/invoice">
                             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
                                 {t("cta.button")}
                                 <ArrowRight className="ml-2 h-5 w-5" />

@@ -26,8 +26,15 @@ const LanguageSelector = () => {
 
     const handleLanguageChange = (lang: string) => {
         console.log(lang);
-
-        router.push("/", { locale: lang });
+        
+        // 获取当前路径并保持在同一路径，只改变语言
+        const pathname = window.location.pathname;
+        // 从路径中移除当前语言代码部分 (例如 /en/invoice 变成 /invoice)
+        const currentLocale = params.locale as string;
+        const pathWithoutLocale = pathname.replace(new RegExp(`^\/${currentLocale}`), '');
+        
+        // 导航到相同路径但使用新的语言
+        router.push(pathWithoutLocale || '/', { locale: lang });
     };
     return (
         <Select

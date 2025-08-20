@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "开发人员"
+    },
+    "landing": {
+        "hero": {
+            "title": "几分钟内创建专业发票",
+            "subtitle": "免费、快速且功能丰富的发票生成器。无需注册。",
+            "cta": "开始创建发票",
+            "tryDemo": "试用演示"
+        },
+        "features": {
+            "title": "为什么选择Invoify？",
+            "subtitle": "创建专业发票所需的一切",
+            "items": {
+                "free": {
+                    "title": "完全免费",
+                    "description": "没有隐藏费用，没有订阅。免费创建无限量发票。"
+                },
+                "templates": {
+                    "title": "专业模板",
+                    "description": "从多个精美设计的发票模板中选择。"
+                },
+                "export": {
+                    "title": "多种导出格式",
+                    "description": "导出为PDF、JSON、XLSX、CSV或XML。直接通过电子邮件发送。"
+                },
+                "preview": {
+                    "title": "实时预览",
+                    "description": "在填写表单时实时查看发票更新。"
+                },
+                "storage": {
+                    "title": "本地存储",
+                    "description": "在浏览器中保存发票，方便访问和未来编辑。"
+                },
+                "multilingual": {
+                    "title": "多语言支持",
+                    "description": "使用完整的国际化功能创建多语言发票。"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "如何使用",
+            "subtitle": "创建发票的简单四步流程",
+            "steps": {
+                "step1": {
+                    "title": "输入详情",
+                    "description": "填写发件人和收件人信息"
+                },
+                "step2": {
+                    "title": "添加项目",
+                    "description": "添加带有数量和价格的明细项目"
+                },
+                "step3": {
+                    "title": "自定义",
+                    "description": "添加支付信息、税费和签名"
+                },
+                "step4": {
+                    "title": "导出与发送",
+                    "description": "下载PDF或通过电子邮件发送"
+                }
+            }
+        },
+        "cta": {
+            "title": "准备创建您的第一份发票？",
+            "subtitle": "加入数千名信任Invoify处理发票需求的用户",
+            "button": "立即开始"
+        }
     }
 }
