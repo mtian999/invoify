@@ -30,6 +30,7 @@ import { JSONLD, ROOTKEYWORDS } from "@/lib/seo";
 
 // Variables
 import { BASE_URL, GOOGLE_SC_VERIFICATION, LOCALES } from "@/lib/variables";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "Invoify | Free Invoice Generator",
@@ -96,6 +97,13 @@ export default async function LocaleLayout({
             <Analytics />
           </Providers>
         </NextIntlClientProvider>
+        {process.env.NODE_ENV === "development" ? (
+          <></>
+        ) : (
+          <>
+            <GoogleAnalytics />
+          </>
+        )}
       </body>
     </html>
   );
