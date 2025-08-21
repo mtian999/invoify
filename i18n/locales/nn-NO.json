@@ -152,6 +152,66 @@
             "title": "Klar til å lage di første faktura?",
             "subtitle": "Bli med tusenvis av brukarar som stolar på Invoify for sine faktureringsbehov",
             "button": "Start no"
+        },
+        "testimonials": {
+            "title": "Kva brukarane våre seier",
+            "subtitle": "Tiltrudd av frilansar og bedrifter over heile verda",
+            "items": [
+                {
+                    "quote": "Invoify har forenkla faktureringsprosessen min. Eg kan lage profesjonelle fakturaer på minutt!",
+                    "author": "Anders Johannessen",
+                    "role": "Frilansgrafiker",
+                    "rating": 5
+                },
+                {
+                    "quote": "Dei mange eksportformata og lokal lagringsfunksjon sparar meg for mykje tid. Sterkt tilrådd!",
+                    "author": "Ingrid Larsen",
+                    "role": "Småbedriftseigar",
+                    "rating": 5
+                },
+                {
+                    "quote": "Som profesjonell som jobbar med internasjonale kundar, er fleirspråkleg støtte uvurderleg.",
+                    "author": "Erik Olsen",
+                    "role": "Marknadsføringskonsulent",
+                    "rating": 4
+                },
+                {
+                    "quote": "Reint grensesnitt, brukarvennlegheit og heilt gratis. Kva meir kan ein ønskje seg?",
+                    "author": "Marte Pedersen",
+                    "role": "Frilansutviklar",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "Ofte stilte spørsmål",
+            "subtitle": "Finn svar på vanlege spørsmål om Invoify",
+            "items": [
+                {
+                    "question": "Er Invoify verkeleg gratis?",
+                    "answer": "Ja, Invoify er heilt gratis, utan skjulte kostnader eller abonnement. Du kan lage uavgrensa fakturaer."
+                },
+                {
+                    "question": "Må eg opprette ein konto for å bruke Invoify?",
+                    "answer": "Nei, Invoify krev ingen registrering. For å beskytte personvernet ditt, vert data lagra lokalt i nettlesaren din."
+                },
+                {
+                    "question": "Kva eksportformat er støtta?",
+                    "answer": "Invoify støttar eksport av fakturaer i PDF, JSON, XLSX, CSV og XML-format."
+                },
+                {
+                    "question": "Er dataa mine trygge når eg brukar Invoify?",
+                    "answer": "Ja, dataa dine forlater aldri datamaskina di. All fakturainformasjon vert lagra lokalt i nettlesaren din, noko som sikrar fullstendig personvern."
+                },
+                {
+                    "question": "Kan eg tilpasse fakturamalar?",
+                    "answer": "Ja, Invoify tilbyr fleire profesjonelle malar som du kan tilpasse med logoen din, fargar og andre detaljar."
+                },
+                {
+                    "question": "Kva språk støttar Invoify?",
+                    "answer": "Invoify støttar 14 språk, inkludert nynorsk, engelsk, spansk, fransk, tysk og kinesisk."
+                }
+            ]
         }
     }
 }

@@ -152,6 +152,66 @@
             "title": "Spremni da kreirate svoju prvu fakturu?",
             "subtitle": "Pridružite se hiljadama korisnika koji veruju Invoify-u za svoje potrebe fakturisanja",
             "button": "Počnite odmah"
+        },
+        "testimonials": {
+            "title": "Šta kažu naši korisnici",
+            "subtitle": "Poverenje frilensera i kompanija širom sveta",
+            "items": [
+                {
+                    "quote": "Invoify je pojednostavio moj proces fakturisanja. Mogu da kreiram profesionalne fakture za nekoliko minuta!",
+                    "author": "Nikola Jovanović",
+                    "role": "Grafički dizajner frilenser",
+                    "rating": 5
+                },
+                {
+                    "quote": "Višestruki formati izvoza i funkcija lokalnog skladištenja štede mnogo vremena. Toplo preporučujem!",
+                    "author": "Ana Marković",
+                    "role": "Vlasnica malog preduzeća",
+                    "rating": 5
+                },
+                {
+                    "quote": "Kao profesionalac koji radi sa međunarodnim klijentima, višejezična podrška je izuzetno važna.",
+                    "author": "Milan Đorđević",
+                    "role": "Marketing konsultant",
+                    "rating": 4
+                },
+                {
+                    "quote": "Čist interfejs, jednostavnost korišćenja i potpuno besplatno. Šta više možete poželeti?",
+                    "author": "Jelena Petrović",
+                    "role": "Programer frilenser",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "Često postavljana pitanja",
+            "subtitle": "Pronađite odgovore na uobičajena pitanja o Invoify-u",
+            "items": [
+                {
+                    "question": "Da li je Invoify zaista besplatan?",
+                    "answer": "Da, Invoify je potpuno besplatan, bez skrivenih troškova ili pretplata. Možete kreirati neograničen broj faktura."
+                },
+                {
+                    "question": "Da li moram da kreiram nalog da bih koristio Invoify?",
+                    "answer": "Ne, Invoify ne zahteva registraciju. Da bi zaštitili vašu privatnost, podaci se čuvaju lokalno u vašem pretraživaču."
+                },
+                {
+                    "question": "Koji formati izvoza su podržani?",
+                    "answer": "Invoify podržava izvoz faktura u PDF, JSON, XLSX, CSV i XML formatima."
+                },
+                {
+                    "question": "Da li su moji podaci bezbedni kada koristim Invoify?",
+                    "answer": "Da, vaši podaci nikada ne napuštaju vaš računar. Sve informacije o fakturama se čuvaju lokalno u vašem pretraživaču, osiguravajući potpunu privatnost."
+                },
+                {
+                    "question": "Da li mogu da prilagodim šablone faktura?",
+                    "answer": "Da, Invoify nudi više profesionalnih šablona koje možete prilagoditi svojim logotipom, bojama i drugim detaljima."
+                },
+                {
+                    "question": "Koje jezike podržava Invoify?",
+                    "answer": "Invoify podržava 14 jezika, uključujući srpski, engleski, španski, francuski, nemački i kineski."
+                }
+            ]
         }
     }
 }

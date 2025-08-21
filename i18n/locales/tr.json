@@ -152,6 +152,66 @@
       "title": "İlk faturanızı oluşturmaya hazır mısınız?",
       "subtitle": "Fatura ihtiyaçları için Invoify'a güvenen binlerce kullanıcıya katılın",
       "button": "Şimdi başla"
+    },
+    "testimonials": {
+      "title": "Kullanıcılarımız ne diyor",
+      "subtitle": "Dünya genelindeki serbest çalışanlar ve şirketler tarafından güvenilen",
+      "items": [
+        {
+          "quote": "Invoify, faturalama sürecimi basitleştirdi. Dakikalar içinde profesyonel faturalar oluşturabiliyorum!",
+          "author": "Ahmet Yılmaz",
+          "role": "Serbest grafik tasarımcı",
+          "rating": 5
+        },
+        {
+          "quote": "Çoklu dışa aktarma formatları ve yerel depolama özelliği çok zaman kazandırıyor. Kesinlikle tavsiye ederim!",
+          "author": "Ayşe Kaya",
+          "role": "Küçük işletme sahibi",
+          "rating": 5
+        },
+        {
+          "quote": "Uluslararası müşterilerle çalışan bir profesyonel olarak, çok dilli destek son derece önemli.",
+          "author": "Mehmet Öztürk",
+          "role": "Pazarlama danışmanı",
+          "rating": 4
+        },
+        {
+          "quote": "Temiz arayüz, kullanım kolaylığı ve tamamen ücretsiz. Daha ne istenir ki?",
+          "author": "Zeynep Demir",
+          "role": "Serbest yazılım geliştirici",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Invoify hakkında sık sorulan sorulara yanıtlar bulun",
+      "items": [
+        {
+          "question": "Invoify gerçekten ücretsiz mi?",
+          "answer": "Evet, Invoify tamamen ücretsizdir, gizli ücret veya abonelik yoktur. Sınırsız sayıda fatura oluşturabilirsiniz."
+        },
+        {
+          "question": "Invoify'i kullanmak için hesap oluşturmam gerekiyor mu?",
+          "answer": "Hayır, Invoify kayıt gerektirmez. Gizliliğinizi korumak için veriler yerel olarak tarayıcınızda saklanır."
+        },
+        {
+          "question": "Hangi dışa aktarma formatları destekleniyor?",
+          "answer": "Invoify, PDF, JSON, XLSX, CSV ve XML formatlarında fatura dışa aktarmayı destekler."
+        },
+        {
+          "question": "Invoify'i kullanırken verilerim güvende mi?",
+          "answer": "Evet, verileriniz asla bilgisayarınızdan çıkmaz. Tüm fatura bilgileri, tam gizlilik sağlayarak yerel olarak tarayıcınızda saklanır."
+        },
+        {
+          "question": "Fatura şablonlarını özelleştirebilir miyim?",
+          "answer": "Evet, Invoify logo, renkler ve diğer ayrıntılarla özelleştirebileceğiniz birden çok profesyonel şablon sunar."
+        },
+        {
+          "question": "Invoify hangi dilleri destekliyor?",
+          "answer": "Invoify, Türkçe, İngilizce, İspanyolca, Fransızca, Almanca ve Çince dahil olmak üzere 14 dili desteklemektedir."
+        }
+      ]
     }
   }
 }

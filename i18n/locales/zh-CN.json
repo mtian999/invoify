@@ -152,6 +152,66 @@
             "title": "准备创建您的第一份发票？",
             "subtitle": "加入数千名信任Invoify处理发票需求的用户",
             "button": "立即开始"
+        },
+        "testimonials": {
+            "title": "用户评价",
+            "subtitle": "全球自由职业者和企业的信赖之选",
+            "items": [
+                {
+                    "quote": "Invoify简化了我的开票流程，我可以在几分钟内创建专业的发票！",
+                    "author": "王娟",
+                    "role": "自由设计师",
+                    "rating": 5
+                },
+                {
+                    "quote": "多种导出格式和本地存储功能为我节省了大量时间。强烈推荐！",
+                    "author": "李明",
+                    "role": "小型企业主",
+                    "rating": 5
+                },
+                {
+                    "quote": "作为一个与国际客户合作的人，多语言支持功能非常实用。",
+                    "author": "张玲",
+                    "role": "市场营销顾问",
+                    "rating": 4
+                },
+                {
+                    "quote": "界面清爽，操作简单，而且完全免费。还能要求什么呢？",
+                    "author": "陈宇",
+                    "role": "自由开发者",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "常见问题",
+            "subtitle": "查找关于Invoify的常见问题解答",
+            "items": [
+                {
+                    "question": "Invoify真的是免费使用的吗？",
+                    "answer": "是的，Invoify完全免费，没有隐藏费用或订阅要求。您可以免费创建无限数量的发票。"
+                },
+                {
+                    "question": "我需要创建账户才能使用Invoify吗？",
+                    "answer": "不需要，Invoify不要求注册。为了保护隐私，您的数据仅存储在您的浏览器中。"
+                },
+                {
+                    "question": "支持哪些导出格式？",
+                    "answer": "Invoify支持将发票导出为PDF、JSON、XLSX、CSV和XML格式。"
+                },
+                {
+                    "question": "使用Invoify时我的数据安全吗？",
+                    "answer": "是的，您的数据从不会离开您的计算机。所有发票信息都存储在您的浏览器中，确保完全的隐私保护。"
+                },
+                {
+                    "question": "我可以自定义发票模板吗？",
+                    "answer": "是的，Invoify提供多种专业模板，您可以使用自己的标志、颜色和其他详细信息进行自定义。"
+                },
+                {
+                    "question": "Invoify支持哪些语言？",
+                    "answer": "Invoify支持14种语言，包括中文、英语、西班牙语、法语、德语等。"
+                }
+            ]
         }
     }
 }

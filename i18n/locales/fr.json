@@ -152,6 +152,66 @@
             "title": "Prêt à créer votre première facture ?",
             "subtitle": "Rejoignez des milliers d'utilisateurs qui font confiance à Invoify pour leurs besoins de facturation",
             "button": "Commencer maintenant"
+        },
+        "testimonials": {
+            "title": "Ce que disent nos utilisateurs",
+            "subtitle": "Approuvé par des freelances et des entreprises du monde entier",
+            "items": [
+                {
+                    "quote": "Invoify a simplifié mon processus de facturation. Je peux créer des factures professionnelles en quelques minutes !",
+                    "author": "Sophie Dubois",
+                    "role": "Designer freelance",
+                    "rating": 5
+                },
+                {
+                    "quote": "Les multiples formats d'exportation et la fonction de stockage local me font gagner énormément de temps. Fortement recommandé !",
+                    "author": "Pierre Martin",
+                    "role": "Propriétaire de petite entreprise",
+                    "rating": 5
+                },
+                {
+                    "quote": "En tant que personne travaillant avec des clients internationaux, le support multilingue est un véritable atout.",
+                    "author": "Amélie Leclerc",
+                    "role": "Consultante en marketing",
+                    "rating": 4
+                },
+                {
+                    "quote": "Interface épurée, facile à utiliser et complètement gratuit. Que demander de plus ?",
+                    "author": "Nicolas Petit",
+                    "role": "Développeur freelance",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "Questions fréquemment posées",
+            "subtitle": "Trouvez des réponses aux questions courantes sur Invoify",
+            "items": [
+                {
+                    "question": "Invoify est-il vraiment gratuit ?",
+                    "answer": "Oui, Invoify est entièrement gratuit sans frais cachés ni abonnements. Vous pouvez créer un nombre illimité de factures sans aucun coût."
+                },
+                {
+                    "question": "Dois-je créer un compte pour utiliser Invoify ?",
+                    "answer": "Non, Invoify ne nécessite pas d'inscription. Vos données sont stockées localement dans votre navigateur pour plus de confidentialité."
+                },
+                {
+                    "question": "Quels formats d'exportation sont pris en charge ?",
+                    "answer": "Invoify prend en charge l'exportation des factures aux formats PDF, JSON, XLSX, CSV et XML."
+                },
+                {
+                    "question": "Mes données sont-elles sécurisées lors de l'utilisation d'Invoify ?",
+                    "answer": "Oui, vos données ne quittent jamais votre ordinateur. Toutes les informations de facturation sont stockées localement dans votre navigateur, garantissant une confidentialité totale."
+                },
+                {
+                    "question": "Puis-je personnaliser les modèles de facture ?",
+                    "answer": "Oui, Invoify propose plusieurs modèles professionnels que vous pouvez personnaliser avec votre logo, vos couleurs et d'autres détails."
+                },
+                {
+                    "question": "Quelles langues Invoify prend-il en charge ?",
+                    "answer": "Invoify prend en charge 14 langues, notamment le français, l'anglais, l'espagnol, l'allemand, le chinois et bien d'autres."
+                }
+            ]
         }
     }
 }

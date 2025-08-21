@@ -152,6 +152,66 @@
 			"title": "Preparat per crear la teva primera factura?",
 			"subtitle": "Uneix-te a milers d'usuaris que confien en Invoify per a les seves necessitats de facturació",
 			"button": "Comença ara"
+		},
+		"testimonials": {
+			"title": "Què diuen els nostres usuaris",
+			"subtitle": "De confiança per a professionals i empreses d'arreu del món",
+			"items": [
+				{
+					"quote": "Invoify ha simplificat el meu procés de facturació. Puc crear factures professionals en qüestió de minuts!",
+					"author": "Jordi Puig",
+					"role": "Dissenyador gràfic freelance",
+					"rating": 5
+				},
+				{
+					"quote": "Els múltiples formats d'exportació i la funció d'emmagatzematge local estalvien molt de temps. Ho recomano encaridament!",
+					"author": "Montserrat Vila",
+					"role": "Propietària de petita empresa",
+					"rating": 5
+				},
+				{
+					"quote": "Com a professional que treballa amb clients internacionals, el suport multilingüe és extremadament important.",
+					"author": "Carles Ferrer",
+					"role": "Consultor de màrqueting",
+					"rating": 4
+				},
+				{
+					"quote": "Interfície neta, facilitat d'ús i completament gratuït. Què més es pot demanar?",
+					"author": "Núria Costa",
+					"role": "Desenvolupadora freelance",
+					"rating": 5
+				}
+			]
+		},
+		"faq": {
+			"title": "Preguntes freqüents",
+			"subtitle": "Troba respostes a les preguntes habituals sobre Invoify",
+			"items": [
+				{
+					"question": "Invoify és realment gratuït?",
+					"answer": "Sí, Invoify és completament gratuït, sense costos ocults ni subscripcions. Pots crear un nombre il·limitat de factures."
+				},
+				{
+					"question": "He de crear un compte per utilitzar Invoify?",
+					"answer": "No, Invoify no requereix registre. Per protegir la teva privacitat, les dades s'emmagatzemen localment al teu navegador."
+				},
+				{
+					"question": "Quins formats d'exportació es permeten?",
+					"answer": "Invoify admet l'exportació de factures en formats PDF, JSON, XLSX, CSV i XML."
+				},
+				{
+					"question": "Les meves dades estan segures quan utilitzo Invoify?",
+					"answer": "Sí, les teves dades mai surten del teu ordinador. Tota la informació de la factura s'emmagatzema localment al teu navegador, garantint total privacitat."
+				},
+				{
+					"question": "Puc personalitzar les plantilles de factura?",
+					"answer": "Sí, Invoify ofereix diverses plantilles professionals que pots personalitzar amb el teu logotip, colors i altres detalls."
+				},
+				{
+					"question": "Quins idiomes admet Invoify?",
+					"answer": "Invoify admet 14 idiomes, incloent-hi català, castellà, anglès, francès, alemany i xinès."
+				}
+			]
 		}
 	}
 }

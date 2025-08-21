@@ -152,6 +152,66 @@
       "title": "Siap untuk membuat faktur pertama Anda?",
       "subtitle": "Bergabunglah dengan ribuan pengguna yang mempercayai Invoify untuk kebutuhan faktur mereka",
       "button": "Mulai sekarang"
+    },
+    "testimonials": {
+      "title": "Apa Kata Pengguna Kami",
+      "subtitle": "Dipercaya oleh freelancer dan bisnis di seluruh dunia",
+      "items": [
+        {
+          "quote": "Invoify telah menyederhanakan proses pembuatan faktur saya. Saya bisa membuat faktur profesional dalam hitungan menit!",
+          "author": "Budi Santoso",
+          "role": "Desainer Freelance",
+          "rating": 5
+        },
+        {
+          "quote": "Format ekspor beragam dan fitur penyimpanan lokal sangat menghemat waktu. Sangat direkomendasikan!",
+          "author": "Siti Rahayu",
+          "role": "Pemilik Usaha Kecil",
+          "rating": 5
+        },
+        {
+          "quote": "Sebagai profesional yang bekerja dengan klien internasional, dukungan multi bahasa sangat penting.",
+          "author": "Agus Wijaya",
+          "role": "Konsultan Pemasaran",
+          "rating": 4
+        },
+        {
+          "quote": "Antarmuka yang bersih, kemudahan penggunaan, dan sepenuhnya gratis. Apa lagi yang bisa diminta?",
+          "author": "Dewi Lestari",
+          "role": "Pengembang Freelance",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Temukan jawaban untuk pertanyaan umum tentang Invoify",
+      "items": [
+        {
+          "question": "Apakah Invoify benar-benar gratis?",
+          "answer": "Ya, Invoify sepenuhnya gratis, tanpa biaya tersembunyi atau langganan. Anda dapat membuat faktur tanpa batas."
+        },
+        {
+          "question": "Apakah saya perlu membuat akun untuk menggunakan Invoify?",
+          "answer": "Tidak, Invoify tidak memerlukan pendaftaran. Untuk melindungi privasi Anda, data disimpan secara lokal di browser Anda."
+        },
+        {
+          "question": "Format ekspor apa saja yang didukung?",
+          "answer": "Invoify mendukung ekspor faktur dalam format PDF, JSON, XLSX, CSV, dan XML."
+        },
+        {
+          "question": "Apakah data saya aman saat menggunakan Invoify?",
+          "answer": "Ya, data Anda tidak pernah meninggalkan komputer Anda. Semua informasi faktur disimpan secara lokal di browser Anda, menjamin privasi penuh."
+        },
+        {
+          "question": "Bisakah saya menyesuaikan template faktur?",
+          "answer": "Ya, Invoify menawarkan beberapa template profesional yang dapat Anda sesuaikan dengan logo, warna, dan detail lainnya."
+        },
+        {
+          "question": "Bahasa apa saja yang didukung oleh Invoify?",
+          "answer": "Invoify mendukung 14 bahasa, termasuk Bahasa Indonesia, Inggris, Spanyol, Prancis, Jerman, dan Mandarin."
+        }
+      ]
     }
   }
 }

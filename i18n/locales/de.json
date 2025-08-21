@@ -152,6 +152,66 @@
             "title": "Bereit, Ihre erste Rechnung zu erstellen?",
             "subtitle": "Schließen Sie sich Tausenden von Nutzern an, die Invoify für ihre Rechnungsstellung vertrauen",
             "button": "Jetzt starten"
+        },
+        "testimonials": {
+            "title": "Was unsere Nutzer sagen",
+            "subtitle": "Vertraut von Freiberuflern und Unternehmen weltweit",
+            "items": [
+                {
+                    "quote": "Invoify hat meinen Rechnungsprozess vereinfacht. Ich kann professionelle Rechnungen in Minuten erstellen!",
+                    "author": "Sabine Müller",
+                    "role": "Freiberufliche Designerin",
+                    "rating": 5
+                },
+                {
+                    "quote": "Die verschiedenen Exportformate und die lokale Speicherfunktion sparen mir so viel Zeit. Sehr empfehlenswert!",
+                    "author": "Thomas Weber",
+                    "role": "Kleinunternehmer",
+                    "rating": 5
+                },
+                {
+                    "quote": "Als jemand, der mit internationalen Kunden arbeitet, ist die mehrsprachige Unterstützung ein echter Gamechanger.",
+                    "author": "Lena Schmidt",
+                    "role": "Marketing-Beraterin",
+                    "rating": 4
+                },
+                {
+                    "quote": "Übersichtliche Oberfläche, einfach zu bedienen und völlig kostenlos. Was will man mehr?",
+                    "author": "Markus Becker",
+                    "role": "Freiberuflicher Entwickler",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "Häufig gestellte Fragen",
+            "subtitle": "Finden Sie Antworten auf häufige Fragen zu Invoify",
+            "items": [
+                {
+                    "question": "Ist Invoify wirklich kostenlos?",
+                    "answer": "Ja, Invoify ist vollständig kostenlos ohne versteckte Gebühren oder Abonnements. Sie können unbegrenzt Rechnungen erstellen, ohne dafür zu bezahlen."
+                },
+                {
+                    "question": "Muss ich ein Konto erstellen, um Invoify zu nutzen?",
+                    "answer": "Nein, für Invoify ist keine Registrierung erforderlich. Ihre Daten werden aus Datenschutzgründen lokal in Ihrem Browser gespeichert."
+                },
+                {
+                    "question": "Welche Exportformate werden unterstützt?",
+                    "answer": "Invoify unterstützt den Export von Rechnungen als PDF, JSON, XLSX, CSV und XML."
+                },
+                {
+                    "question": "Sind meine Daten bei der Nutzung von Invoify sicher?",
+                    "answer": "Ja, Ihre Daten verlassen niemals Ihren Computer. Alle Rechnungsinformationen werden lokal in Ihrem Browser gespeichert und gewährleisten so vollständige Privatsphäre."
+                },
+                {
+                    "question": "Kann ich die Rechnungsvorlagen anpassen?",
+                    "answer": "Ja, Invoify bietet mehrere professionelle Vorlagen, die Sie mit Ihrem Logo, Farben und anderen Details anpassen können."
+                },
+                {
+                    "question": "Welche Sprachen unterstützt Invoify?",
+                    "answer": "Invoify unterstützt 14 Sprachen, darunter Deutsch, Englisch, Spanisch, Französisch, Chinesisch und viele mehr."
+                }
+            ]
         }
     }
 }
