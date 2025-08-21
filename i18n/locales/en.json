@@ -152,6 +152,66 @@
             "title": "Ready to Create Your First Invoice?",
             "subtitle": "Join thousands of users who trust Invoify for their invoicing needs",
             "button": "Get Started Now"
+        },
+        "testimonials": {
+            "title": "What Our Users Say",
+            "subtitle": "Trusted by freelancers and businesses worldwide",
+            "items": [
+                {
+                    "quote": "Invoify has simplified my invoicing process. I can create professional invoices in minutes!",
+                    "author": "Sarah Johnson",
+                    "role": "Freelance Designer",
+                    "rating": 5
+                },
+                {
+                    "quote": "The multiple export formats and local storage feature save me so much time. Highly recommended!",
+                    "author": "Michael Chen",
+                    "role": "Small Business Owner",
+                    "rating": 5
+                },
+                {
+                    "quote": "As someone who works with international clients, the multi-language support is a game-changer.",
+                    "author": "Elena Rodriguez",
+                    "role": "Marketing Consultant",
+                    "rating": 4
+                },
+                {
+                    "quote": "Clean interface, easy to use, and completely free. What more could you ask for?",
+                    "author": "David Smith",
+                    "role": "Freelance Developer",
+                    "rating": 5
+                }
+            ]
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "subtitle": "Find answers to common questions about Invoify",
+            "items": [
+                {
+                    "question": "Is Invoify really free to use?",
+                    "answer": "Yes, Invoify is completely free to use with no hidden fees or subscriptions. You can create unlimited invoices at no cost."
+                },
+                {
+                    "question": "Do I need to create an account to use Invoify?",
+                    "answer": "No, Invoify doesn't require registration. Your data is stored locally in your browser for privacy."
+                },
+                {
+                    "question": "What export formats are supported?",
+                    "answer": "Invoify supports exporting invoices as PDF, JSON, XLSX, CSV, and XML formats."
+                },
+                {
+                    "question": "Is my data secure when using Invoify?",
+                    "answer": "Yes, your data never leaves your computer. All invoice information is stored locally in your browser, ensuring complete privacy."
+                },
+                {
+                    "question": "Can I customize the invoice templates?",
+                    "answer": "Yes, Invoify offers multiple professional templates that you can customize with your logo, colors, and other details."
+                },
+                {
+                    "question": "Which languages does Invoify support?",
+                    "answer": "Invoify supports 14 languages including English, Spanish, French, German, Chinese, and more."
+                }
+            ]
         }
     }
 }

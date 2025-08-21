@@ -1,7 +1,11 @@
 "use client";
 
+import * as React from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next-intl/link";
+
+// Components
+import Header from "./Header";
 
 // Icons
 import { 
@@ -12,17 +16,29 @@ import {
     Globe,
     ArrowRight,
     Zap,
-    Shield
+    Shield,
+    Star,
+    ChevronDown,
+    ChevronUp,
+    Quote
 } from "lucide-react";
 
 // ShadCn Components
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const LandingPage = () => {
     const t = useTranslations("landing");
     const locale = useLocale();
+    
+    // 这里不再需要手动控制状态，因为使用了Accordion组件
 
     const features = [
         {
@@ -57,6 +73,62 @@ const LandingPage = () => {
         },
     ];
 
+    // 用户评价数据
+    const testimonials = [
+        {
+            quote: t("testimonials.items.0.quote"),
+            author: t("testimonials.items.0.author"),
+            role: t("testimonials.items.0.role"),
+            rating: 5
+        },
+        {
+            quote: t("testimonials.items.1.quote"),
+            author: t("testimonials.items.1.author"),
+            role: t("testimonials.items.1.role"),
+            rating: 5
+        },
+        {
+            quote: t("testimonials.items.2.quote"),
+            author: t("testimonials.items.2.author"),
+            role: t("testimonials.items.2.role"),
+            rating: 4
+        },
+        {
+            quote: t("testimonials.items.3.quote"),
+            author: t("testimonials.items.3.author"),
+            role: t("testimonials.items.3.role"),
+            rating: 5
+        }
+    ];
+
+    // 常见问题数据
+    const faqs = [
+        {
+            question: t("faq.items.0.question"),
+            answer: t("faq.items.0.answer")
+        },
+        {
+            question: t("faq.items.1.question"),
+            answer: t("faq.items.1.answer")
+        },
+        {
+            question: t("faq.items.2.question"),
+            answer: t("faq.items.2.answer")
+        },
+        {
+            question: t("faq.items.3.question"),
+            answer: t("faq.items.3.answer")
+        },
+        {
+            question: t("faq.items.4.question"),
+            answer: t("faq.items.4.answer")
+        },
+        {
+            question: t("faq.items.5.question"),
+            answer: t("faq.items.5.answer")
+        }
+    ];
+
     const steps = [
         {
             number: "01",
@@ -81,7 +153,8 @@ const LandingPage = () => {
     ];
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen pt-16 md:pt-20">
+            <Header />
             {/* Hero Section */}
             <section className="relative py-20 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
                 <div className="container mx-auto px-4">
@@ -117,7 +190,7 @@ const LandingPage = () => {
             </section>
 
             {/* Features Section */}
-            <section className="py-20 bg-white dark:bg-slate-800">
+            <section id="features" className="py-20 bg-white dark:bg-slate-800">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -201,8 +274,78 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* CTA Section */}
+            {/* Testimonials Section */}
+            <section className="py-20 bg-gray-50 dark:bg-slate-900">
+                <div className="container mx-auto px-4">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+                            {t("testimonials.title")}
+                        </h2>
+                        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                            {t("testimonials.subtitle")}
+                        </p>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        {testimonials.map((testimonial, index) => (
+                            <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <CardContent className="p-6">
+                                    <div className="mb-4 text-blue-600">
+                                        <Quote className="h-8 w-8" />
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
+                                        "{testimonial.quote}"
+                                    </p>
+                                    <div className="flex items-center mb-2">
+                                        {[...Array(5)].map((_, i) => (
+                                            <Star 
+                                                key={i} 
+                                                className={`h-4 w-4 ${i < testimonial.rating ? 'text-yellow-500 fill-yellow-500' : 'text-gray-300'}`} 
+                                            />
+                                        ))}
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold text-gray-900 dark:text-white">{testimonial.author}</p>
+                                        <p className="text-sm text-gray-500 dark:text-gray-400">{testimonial.role}</p>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
             <section className="py-20 bg-white dark:bg-slate-800">
+                <div className="container mx-auto px-4">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+                            {t("faq.title")}
+                        </h2>
+                        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                            {t("faq.subtitle")}
+                        </p>
+                    </div>
+                    
+                    <div className="max-w-3xl mx-auto">
+                        <Accordion type="single" collapsible className="w-full">
+                            {faqs.map((faq, index) => (
+                                <AccordionItem key={index} value={`item-${index}`}>
+                                    <AccordionTrigger className="text-left font-medium text-gray-900 dark:text-white">
+                                        {faq.question}
+                                    </AccordionTrigger>
+                                    <AccordionContent className="text-gray-600 dark:text-gray-300">
+                                        {faq.answer}
+                                    </AccordionContent>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
+                    </div>
+                </div>
+            </section>
+
+            {/* CTA Section */}
+            <section className="py-20 bg-blue-50 dark:bg-slate-900">
                 <div className="container mx-auto px-4">
                     <div className="max-w-3xl mx-auto text-center">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
