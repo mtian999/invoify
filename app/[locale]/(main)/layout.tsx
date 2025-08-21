@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-
 // Components
 import { BaseNavbar, BaseFooter } from "@/app/components";
 

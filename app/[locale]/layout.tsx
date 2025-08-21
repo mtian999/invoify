@@ -44,11 +44,11 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: BASE_URL,
+    canonical: "./",
   },
   authors: {
-    name: "Ali Abbasov",
-    url: "https://aliabb.vercel.app",
+    name: "Master Mao",
+    // url: "https://aliabb.vercel.app",
   },
   verification: {
     google: GOOGLE_SC_VERIFICATION,
