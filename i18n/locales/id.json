@@ -88,5 +88,70 @@
   },
   "footer": {
     "developedBy": "Dikembangkan oleh"
+  },
+  "landing": {
+    "hero": {
+      "title": "Buat faktur profesional dalam hitungan menit",
+      "subtitle": "Generator faktur yang gratis, cepat, dan kaya fitur. Tidak perlu pendaftaran.",
+      "cta": "Mulai buat faktur",
+      "tryDemo": "Coba demo"
+    },
+    "features": {
+      "title": "Mengapa memilih Invoify?",
+      "subtitle": "Semua yang Anda butuhkan untuk membuat faktur profesional",
+      "items": {
+        "free": {
+          "title": "Sepenuhnya gratis",
+          "description": "Tidak ada biaya tersembunyi, tidak ada langganan. Buat faktur tanpa batas tanpa biaya apapun."
+        },
+        "templates": {
+          "title": "Template profesional",
+          "description": "Pilih dari berbagai template faktur yang dirancang dengan indah."
+        },
+        "export": {
+          "title": "Format ekspor beragam",
+          "description": "Ekspor sebagai PDF, JSON, XLSX, CSV, atau XML. Kirim langsung melalui email."
+        },
+        "preview": {
+          "title": "Pratinjau langsung",
+          "description": "Lihat faktur Anda diperbarui secara real-time saat Anda mengisi formulir."
+        },
+        "storage": {
+          "title": "Penyimpanan lokal",
+          "description": "Simpan faktur di browser Anda untuk akses dan pengeditan yang mudah di masa mendatang."
+        },
+        "multilingual": {
+          "title": "Dukungan multi bahasa",
+          "description": "Buat faktur dalam berbagai bahasa dengan internasionalisasi penuh."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Cara kerjanya",
+      "subtitle": "Proses 4 langkah sederhana untuk membuat faktur Anda",
+      "steps": {
+        "step1": {
+          "title": "Masukkan detail",
+          "description": "Isi informasi pengirim dan penerima"
+        },
+        "step2": {
+          "title": "Tambahkan item",
+          "description": "Tambahkan item faktur dengan jumlah dan harga"
+        },
+        "step3": {
+          "title": "Kustomisasi",
+          "description": "Tambahkan informasi pembayaran, pajak, dan tanda tangan"
+        },
+        "step4": {
+          "title": "Ekspor dan kirim",
+          "description": "Unduh sebagai PDF atau kirim melalui email"
+        }
+      }
+    },
+    "cta": {
+      "title": "Siap untuk membuat faktur pertama Anda?",
+      "subtitle": "Bergabunglah dengan ribuan pengguna yang mempercayai Invoify untuk kebutuhan faktur mereka",
+      "button": "Mulai sekarang"
+    }
   }
 }

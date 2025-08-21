@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Entwickelt von"
+    },
+    "landing": {
+        "hero": {
+            "title": "Erstellen Sie professionelle Rechnungen in Minuten",
+            "subtitle": "Kostenloser, schneller und funktionsreicher Rechnungsgenerator. Keine Registrierung erforderlich.",
+            "cta": "Rechnungen erstellen",
+            "tryDemo": "Demo ausprobieren"
+        },
+        "features": {
+            "title": "Warum Invoify wählen?",
+            "subtitle": "Alles, was Sie für die Erstellung professioneller Rechnungen benötigen",
+            "items": {
+                "free": {
+                    "title": "Völlig kostenlos",
+                    "description": "Keine versteckten Gebühren, keine Abonnements. Erstellen Sie unbegrenzt Rechnungen ohne Kosten."
+                },
+                "templates": {
+                    "title": "Professionelle Vorlagen",
+                    "description": "Wählen Sie aus mehreren schön gestalteten Rechnungsvorlagen."
+                },
+                "export": {
+                    "title": "Mehrere Exportformate",
+                    "description": "Exportieren als PDF, JSON, XLSX, CSV oder XML. Direkt per E-Mail versenden."
+                },
+                "preview": {
+                    "title": "Live-Vorschau",
+                    "description": "Sehen Sie, wie sich Ihre Rechnung in Echtzeit aktualisiert, während Sie das Formular ausfüllen."
+                },
+                "storage": {
+                    "title": "Lokale Speicherung",
+                    "description": "Speichern Sie Rechnungen in Ihrem Browser für einfachen Zugriff und spätere Bearbeitung."
+                },
+                "multilingual": {
+                    "title": "Mehrsprachige Unterstützung",
+                    "description": "Erstellen Sie Rechnungen in mehreren Sprachen mit vollständiger Internationalisierung."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Wie es funktioniert",
+            "subtitle": "Einfacher 4-Schritte-Prozess zur Erstellung Ihrer Rechnung",
+            "steps": {
+                "step1": {
+                    "title": "Details eingeben",
+                    "description": "Füllen Sie Absender- und Empfängerinformationen aus"
+                },
+                "step2": {
+                    "title": "Artikel hinzufügen",
+                    "description": "Fügen Sie Positionen mit Mengen und Preisen hinzu"
+                },
+                "step3": {
+                    "title": "Anpassen",
+                    "description": "Fügen Sie Zahlungsinformationen, Steuern und Unterschrift hinzu"
+                },
+                "step4": {
+                    "title": "Exportieren & Senden",
+                    "description": "PDF herunterladen oder per E-Mail versenden"
+                }
+            }
+        },
+        "cta": {
+            "title": "Bereit, Ihre erste Rechnung zu erstellen?",
+            "subtitle": "Schließen Sie sich Tausenden von Nutzern an, die Invoify für ihre Rechnungsstellung vertrauen",
+            "button": "Jetzt starten"
+        }
     }
 }

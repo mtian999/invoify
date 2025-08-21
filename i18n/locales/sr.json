@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Napravljeno od strane"
+    },
+    "landing": {
+        "hero": {
+            "title": "Napravite profesionalne fakture za nekoliko minuta",
+            "subtitle": "Besplatan, brz i bogat funkcijama generator faktura. Nije potrebna registracija.",
+            "cta": "Počnite sa kreiranjem faktura",
+            "tryDemo": "Isprobajte demo"
+        },
+        "features": {
+            "title": "Zašto izabrati Invoify?",
+            "subtitle": "Sve što vam je potrebno za kreiranje profesionalnih faktura",
+            "items": {
+                "free": {
+                    "title": "Potpuno besplatno",
+                    "description": "Nema skrivenih troškova, nema pretplate. Kreirajte neograničen broj faktura bez ikakvih troškova."
+                },
+                "templates": {
+                    "title": "Profesionalni šabloni",
+                    "description": "Izaberite između više lepo dizajniranih šablona faktura."
+                },
+                "export": {
+                    "title": "Više formata za izvoz",
+                    "description": "Izvezite kao PDF, JSON, XLSX, CSV ili XML. Pošaljite direktno putem e-pošte."
+                },
+                "preview": {
+                    "title": "Pregled uživo",
+                    "description": "Gledajte kako se vaša faktura ažurira u realnom vremenu dok popunjavate obrazac."
+                },
+                "storage": {
+                    "title": "Lokalno skladištenje",
+                    "description": "Sačuvajte fakture u vašem pretraživaču za lak pristup i uređivanje u budućnosti."
+                },
+                "multilingual": {
+                    "title": "Višejezična podrška",
+                    "description": "Kreirajte fakture na više jezika sa potpunom internacionalizacijom."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Kako radi",
+            "subtitle": "Jednostavan proces od 4 koraka za kreiranje vaše fakture",
+            "steps": {
+                "step1": {
+                    "title": "Unesite detalje",
+                    "description": "Popunite informacije o pošiljaocu i primaocu"
+                },
+                "step2": {
+                    "title": "Dodajte stavke",
+                    "description": "Dodajte stavke fakture sa količinama i cenama"
+                },
+                "step3": {
+                    "title": "Prilagodite",
+                    "description": "Dodajte informacije o plaćanju, porezima i potpis"
+                },
+                "step4": {
+                    "title": "Izvezite i pošaljite",
+                    "description": "Preuzmite kao PDF ili pošaljite e-poštom"
+                }
+            }
+        },
+        "cta": {
+            "title": "Spremni da kreirate svoju prvu fakturu?",
+            "subtitle": "Pridružite se hiljadama korisnika koji veruju Invoify-u za svoje potrebe fakturisanja",
+            "button": "Počnite odmah"
+        }
     }
 }

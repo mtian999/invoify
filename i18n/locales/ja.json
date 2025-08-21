@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "開発者"
+    },
+    "landing": {
+        "hero": {
+            "title": "数分でプロフェッショナルな請求書を作成",
+            "subtitle": "無料、高速、多機能な請求書生成ツール。登録不要。",
+            "cta": "請求書作成を開始",
+            "tryDemo": "デモを試す"
+        },
+        "features": {
+            "title": "Invoifyを選ぶ理由",
+            "subtitle": "プロフェッショナルな請求書を作成するために必要なすべて",
+            "items": {
+                "free": {
+                    "title": "完全無料",
+                    "description": "隠れた費用やサブスクリプションはありません。無制限に請求書を作成できます。"
+                },
+                "templates": {
+                    "title": "プロフェッショナルなテンプレート",
+                    "description": "美しくデザインされた複数の請求書テンプレートから選択できます。"
+                },
+                "export": {
+                    "title": "複数のエクスポート形式",
+                    "description": "PDF、JSON、XLSX、CSV、XMLとしてエクスポート。メールで直接送信も可能。"
+                },
+                "preview": {
+                    "title": "リアルタイムプレビュー",
+                    "description": "フォームに入力しながら、請求書がリアルタイムで更新されるのを確認できます。"
+                },
+                "storage": {
+                    "title": "ローカルストレージ",
+                    "description": "ブラウザに請求書を保存し、簡単にアクセスや将来の編集が可能です。"
+                },
+                "multilingual": {
+                    "title": "多言語サポート",
+                    "description": "完全な国際化対応で、複数の言語で請求書を作成できます。"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "使い方",
+            "subtitle": "請求書作成の簡単な4ステップ",
+            "steps": {
+                "step1": {
+                    "title": "詳細を入力",
+                    "description": "送信者と受信者の情報を入力"
+                },
+                "step2": {
+                    "title": "品目を追加",
+                    "description": "数量と価格を含む品目を追加"
+                },
+                "step3": {
+                    "title": "カスタマイズ",
+                    "description": "支払い情報、税金、署名を追加"
+                },
+                "step4": {
+                    "title": "エクスポートと送信",
+                    "description": "PDFをダウンロードまたはメールで送信"
+                }
+            }
+        },
+        "cta": {
+            "title": "最初の請求書を作成する準備はできましたか？",
+            "subtitle": "Invoifyを請求書作成に信頼する何千人ものユーザーに参加しましょう",
+            "button": "今すぐ始める"
+        }
     }
 }

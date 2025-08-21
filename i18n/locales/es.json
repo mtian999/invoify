@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Desarrollado por"
+    },
+    "landing": {
+        "hero": {
+            "title": "Crea facturas profesionales en minutos",
+            "subtitle": "Generador de facturas gratuito, rápido y con múltiples funciones. No requiere registro.",
+            "cta": "Comenzar a crear facturas",
+            "tryDemo": "Probar demo"
+        },
+        "features": {
+            "title": "¿Por qué elegir Invoify?",
+            "subtitle": "Todo lo que necesitas para crear facturas profesionales",
+            "items": {
+                "free": {
+                    "title": "Completamente gratuito",
+                    "description": "Sin costos ocultos, sin suscripciones. Crea facturas ilimitadas sin costo alguno."
+                },
+                "templates": {
+                    "title": "Plantillas profesionales",
+                    "description": "Elige entre múltiples plantillas de facturas con diseños elegantes."
+                },
+                "export": {
+                    "title": "Múltiples formatos de exportación",
+                    "description": "Exporta como PDF, JSON, XLSX, CSV o XML. Envía directamente por correo electrónico."
+                },
+                "preview": {
+                    "title": "Vista previa en tiempo real",
+                    "description": "Ve cómo se actualiza tu factura en tiempo real mientras completas el formulario."
+                },
+                "storage": {
+                    "title": "Almacenamiento local",
+                    "description": "Guarda facturas en tu navegador para acceder fácilmente y editarlas en el futuro."
+                },
+                "multilingual": {
+                    "title": "Soporte multilingüe",
+                    "description": "Crea facturas en varios idiomas con internacionalización completa."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Cómo funciona",
+            "subtitle": "Proceso simple de 4 pasos para crear tu factura",
+            "steps": {
+                "step1": {
+                    "title": "Ingresa los detalles",
+                    "description": "Completa la información del remitente y destinatario"
+                },
+                "step2": {
+                    "title": "Añade artículos",
+                    "description": "Agrega líneas de artículos con cantidades y precios"
+                },
+                "step3": {
+                    "title": "Personaliza",
+                    "description": "Añade información de pago, impuestos y firma"
+                },
+                "step4": {
+                    "title": "Exporta y envía",
+                    "description": "Descarga en PDF o envía por correo electrónico"
+                }
+            }
+        },
+        "cta": {
+            "title": "¿Listo para crear tu primera factura?",
+            "subtitle": "Únete a miles de usuarios que confían en Invoify para sus necesidades de facturación",
+            "button": "Comenzar ahora"
+        }
     }
 }

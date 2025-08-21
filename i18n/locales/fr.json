@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Développé par"
+    },
+    "landing": {
+        "hero": {
+            "title": "Créez des factures professionnelles en quelques minutes",
+            "subtitle": "Générateur de factures gratuit, rapide et riche en fonctionnalités. Aucune inscription requise.",
+            "cta": "Commencer à créer des factures",
+            "tryDemo": "Essayer la démo"
+        },
+        "features": {
+            "title": "Pourquoi choisir Invoify ?",
+            "subtitle": "Tout ce dont vous avez besoin pour créer des factures professionnelles",
+            "items": {
+                "free": {
+                    "title": "Entièrement gratuit",
+                    "description": "Pas de frais cachés, pas d'abonnements. Créez des factures illimitées sans aucun coût."
+                },
+                "templates": {
+                    "title": "Modèles professionnels",
+                    "description": "Choisissez parmi plusieurs modèles de factures magnifiquement conçus."
+                },
+                "export": {
+                    "title": "Multiples formats d'exportation",
+                    "description": "Exportez en PDF, JSON, XLSX, CSV ou XML. Envoyez directement par e-mail."
+                },
+                "preview": {
+                    "title": "Aperçu en temps réel",
+                    "description": "Voyez votre facture se mettre à jour en temps réel pendant que vous remplissez le formulaire."
+                },
+                "storage": {
+                    "title": "Stockage local",
+                    "description": "Enregistrez les factures dans votre navigateur pour un accès facile et des modifications ultérieures."
+                },
+                "multilingual": {
+                    "title": "Support multilingue",
+                    "description": "Créez des factures en plusieurs langues avec une internationalisation complète."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Comment ça fonctionne",
+            "subtitle": "Processus simple en 4 étapes pour créer votre facture",
+            "steps": {
+                "step1": {
+                    "title": "Saisissez les détails",
+                    "description": "Remplissez les informations de l'expéditeur et du destinataire"
+                },
+                "step2": {
+                    "title": "Ajoutez des articles",
+                    "description": "Ajoutez des lignes d'articles avec quantités et prix"
+                },
+                "step3": {
+                    "title": "Personnalisez",
+                    "description": "Ajoutez les informations de paiement, taxes et signature"
+                },
+                "step4": {
+                    "title": "Exportez et envoyez",
+                    "description": "Téléchargez en PDF ou envoyez par e-mail"
+                }
+            }
+        },
+        "cta": {
+            "title": "Prêt à créer votre première facture ?",
+            "subtitle": "Rejoignez des milliers d'utilisateurs qui font confiance à Invoify pour leurs besoins de facturation",
+            "button": "Commencer maintenant"
+        }
     }
 }

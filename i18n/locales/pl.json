@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Opracowane przez"
+    },
+    "landing": {
+        "hero": {
+            "title": "Twórz profesjonalne faktury w kilka minut",
+            "subtitle": "Darmowy, szybki i bogaty w funkcje generator faktur. Rejestracja nie jest wymagana.",
+            "cta": "Zacznij tworzyć faktury",
+            "tryDemo": "Wypróbuj demo"
+        },
+        "features": {
+            "title": "Dlaczego warto wybrać Invoify?",
+            "subtitle": "Wszystko, czego potrzebujesz do tworzenia profesjonalnych faktur",
+            "items": {
+                "free": {
+                    "title": "Całkowicie za darmo",
+                    "description": "Brak ukrytych opłat, brak subskrypcji. Twórz nieograniczoną liczbę faktur bez żadnych kosztów."
+                },
+                "templates": {
+                    "title": "Profesjonalne szablony",
+                    "description": "Wybieraj spośród wielu pięknie zaprojektowanych szablonów faktur."
+                },
+                "export": {
+                    "title": "Wiele formatów eksportu",
+                    "description": "Eksportuj jako PDF, JSON, XLSX, CSV lub XML. Wysyłaj bezpośrednio przez e-mail."
+                },
+                "preview": {
+                    "title": "Podgląd na żywo",
+                    "description": "Zobacz, jak Twoja faktura aktualizuje się w czasie rzeczywistym podczas wypełniania formularza."
+                },
+                "storage": {
+                    "title": "Lokalne przechowywanie",
+                    "description": "Zapisuj faktury w przeglądarce, aby łatwo uzyskać do nich dostęp i edytować je w przyszłości."
+                },
+                "multilingual": {
+                    "title": "Obsługa wielu języków",
+                    "description": "Twórz faktury w wielu językach z pełną internacjonalizacją."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Jak to działa",
+            "subtitle": "Prosty 4-etapowy proces tworzenia faktury",
+            "steps": {
+                "step1": {
+                    "title": "Wprowadź dane",
+                    "description": "Wypełnij informacje o nadawcy i odbiorcy"
+                },
+                "step2": {
+                    "title": "Dodaj pozycje",
+                    "description": "Dodaj pozycje z ilościami i cenami"
+                },
+                "step3": {
+                    "title": "Dostosuj",
+                    "description": "Dodaj informacje o płatności, podatkach i podpis"
+                },
+                "step4": {
+                    "title": "Eksportuj i wyślij",
+                    "description": "Pobierz jako PDF lub wyślij przez e-mail"
+                }
+            }
+        },
+        "cta": {
+            "title": "Gotowy do utworzenia pierwszej faktury?",
+            "subtitle": "Dołącz do tysięcy użytkowników, którzy ufają Invoify w zakresie fakturowania",
+            "button": "Rozpocznij teraz"
+        }
     }
 }

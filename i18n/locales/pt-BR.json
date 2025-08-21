@@ -95,5 +95,70 @@
     },
     "footer": {
         "developedBy": "Desenvolvido por"
+    },
+    "landing": {
+        "hero": {
+            "title": "Crie faturas profissionais em minutos",
+            "subtitle": "Gerador de faturas gratuito, rápido e rico em recursos. Nenhum registro necessário.",
+            "cta": "Comece a criar faturas",
+            "tryDemo": "Experimente a demonstração"
+        },
+        "features": {
+            "title": "Por que escolher o Invoify?",
+            "subtitle": "Tudo o que você precisa para criar faturas profissionais",
+            "items": {
+                "free": {
+                    "title": "Totalmente gratuito",
+                    "description": "Sem taxas ocultas, sem assinaturas. Crie faturas ilimitadas sem nenhum custo."
+                },
+                "templates": {
+                    "title": "Modelos profissionais",
+                    "description": "Escolha entre vários modelos de faturas lindamente projetados."
+                },
+                "export": {
+                    "title": "Múltiplos formatos de exportação",
+                    "description": "Exporte como PDF, JSON, XLSX, CSV ou XML. Envie diretamente por e-mail."
+                },
+                "preview": {
+                    "title": "Pré-visualização em tempo real",
+                    "description": "Veja sua fatura sendo atualizada em tempo real enquanto preenche o formulário."
+                },
+                "storage": {
+                    "title": "Armazenamento local",
+                    "description": "Salve faturas no seu navegador para fácil acesso e edição no futuro."
+                },
+                "multilingual": {
+                    "title": "Suporte multilíngue",
+                    "description": "Crie faturas em vários idiomas com internacionalização completa."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Como funciona",
+            "subtitle": "Processo simples de 4 etapas para criar sua fatura",
+            "steps": {
+                "step1": {
+                    "title": "Insira os detalhes",
+                    "description": "Preencha as informações do remetente e do destinatário"
+                },
+                "step2": {
+                    "title": "Adicione itens",
+                    "description": "Adicione itens da fatura com quantidades e preços"
+                },
+                "step3": {
+                    "title": "Personalize",
+                    "description": "Adicione informações de pagamento, impostos e assinatura"
+                },
+                "step4": {
+                    "title": "Exporte e envie",
+                    "description": "Baixe como PDF ou envie por e-mail"
+                }
+            }
+        },
+        "cta": {
+            "title": "Pronto para criar sua primeira fatura?",
+            "subtitle": "Junte-se a milhares de usuários que confiam no Invoify para suas necessidades de faturamento",
+            "button": "Comece agora"
+        }
     }
 }

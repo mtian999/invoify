@@ -88,5 +88,70 @@
   },
   "footer": {
     "developedBy": "Oluşturan"
+  },
+  "landing": {
+    "hero": {
+      "title": "Dakikalar içinde profesyonel faturalar oluşturun",
+      "subtitle": "Hızlı, ücretsiz ve özellik açısından zengin fatura oluşturucu. Kayıt gerektirmez.",
+      "cta": "Fatura oluşturmaya başla",
+      "tryDemo": "Demo'yu deneyin"
+    },
+    "features": {
+      "title": "Neden Invoify?",
+      "subtitle": "Profesyonel faturalar oluşturmak için ihtiyacınız olan her şey",
+      "items": {
+        "free": {
+          "title": "Tamamen ücretsiz",
+          "description": "Gizli ücret yok, abonelik yok. Sınırsız faturayı hiçbir maliyet ödemeden oluşturun."
+        },
+        "templates": {
+          "title": "Profesyonel şablonlar",
+          "description": "Güzel tasarlanmış birden fazla fatura şablonu arasından seçim yapın."
+        },
+        "export": {
+          "title": "Çoklu dışa aktarma formatı",
+          "description": "PDF, JSON, XLSX, CSV veya XML olarak dışa aktarın. Doğrudan e-posta ile gönderin."
+        },
+        "preview": {
+          "title": "Canlı önizleme",
+          "description": "Formu doldururken faturanızın gerçek zamanlı olarak güncellendiğini görün."
+        },
+        "storage": {
+          "title": "Yerel depolama",
+          "description": "Gelecekte kolay erişim ve düzenleme için faturaları tarayıcınızda saklayın."
+        },
+        "multilingual": {
+          "title": "Çok dilli destek",
+          "description": "Tam uluslararasılaştırma ile birden fazla dilde fatura oluşturun."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Nasıl çalışır",
+      "subtitle": "Faturanızı oluşturmak için basit 4 adımlı süreç",
+      "steps": {
+        "step1": {
+          "title": "Detayları girin",
+          "description": "Gönderici ve alıcı bilgilerini doldurun"
+        },
+        "step2": {
+          "title": "Kalemleri ekleyin",
+          "description": "Miktar ve fiyatlarla fatura kalemlerini ekleyin"
+        },
+        "step3": {
+          "title": "Özelleştirin",
+          "description": "Ödeme bilgileri, vergiler ve imza ekleyin"
+        },
+        "step4": {
+          "title": "Dışa aktarın ve gönderin",
+          "description": "PDF olarak indirin veya e-posta ile gönderin"
+        }
+      }
+    },
+    "cta": {
+      "title": "İlk faturanızı oluşturmaya hazır mısınız?",
+      "subtitle": "Fatura ihtiyaçları için Invoify'a güvenen binlerce kullanıcıya katılın",
+      "button": "Şimdi başla"
+    }
   }
 }

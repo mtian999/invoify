@@ -88,5 +88,70 @@
 	},
 	"footer": {
 		"developedBy": "Desenvolupat per"
+	},
+	"landing": {
+		"hero": {
+			"title": "Crea factures professionals en minuts",
+			"subtitle": "Generador de factures gratuït, ràpid i amb moltes funcionalitats. No cal registrar-se.",
+			"cta": "Comença a crear factures",
+			"tryDemo": "Prova la demo"
+		},
+		"features": {
+			"title": "Per què escollir Invoify?",
+			"subtitle": "Tot el que necessites per crear factures professionals",
+			"items": {
+				"free": {
+					"title": "Completament gratuït",
+					"description": "Sense costos ocults, sense subscripcions. Crea factures il·limitades sense cap cost."
+				},
+				"templates": {
+					"title": "Plantilles professionals",
+					"description": "Escull entre diverses plantilles de factures dissenyades amb cura."
+				},
+				"export": {
+					"title": "Múltiples formats d'exportació",
+					"description": "Exporta com a PDF, JSON, XLSX, CSV o XML. Envia directament per correu electrònic."
+				},
+				"preview": {
+					"title": "Vista prèvia en temps real",
+					"description": "Observa com la teva factura s'actualitza en temps real mentre omples el formulari."
+				},
+				"storage": {
+					"title": "Emmagatzematge local",
+					"description": "Desa les factures al teu navegador per accedir-hi i editar-les fàcilment en el futur."
+				},
+				"multilingual": {
+					"title": "Suport multilingüe",
+					"description": "Crea factures en diversos idiomes amb internacionalització completa."
+				}
+			}
+		},
+		"howItWorks": {
+			"title": "Com funciona",
+			"subtitle": "Procés senzill de 4 passos per crear la teva factura",
+			"steps": {
+				"step1": {
+					"title": "Introdueix les dades",
+					"description": "Omple la informació del remitent i del destinatari"
+				},
+				"step2": {
+					"title": "Afegeix els items",
+					"description": "Afegeix items a la factura amb quantitats i preus"
+				},
+				"step3": {
+					"title": "Personalitza",
+					"description": "Afegeix informació de pagament, impostos i signatura"
+				},
+				"step4": {
+					"title": "Exporta i envia",
+					"description": "Descarrega com a PDF o envia per correu electrònic"
+				}
+			}
+		},
+		"cta": {
+			"title": "Preparat per crear la teva primera factura?",
+			"subtitle": "Uneix-te a milers d'usuaris que confien en Invoify per a les seves necessitats de facturació",
+			"button": "Comença ara"
+		}
 	}
 }

@@ -88,5 +88,70 @@
     },
     "footer": {
         "developedBy": "Utviklet av"
+    },
+    "landing": {
+        "hero": {
+            "title": "Lag profesjonelle fakturaer på minutter",
+            "subtitle": "Gratis, rask og funksjonsrik fakturagenerator. Ingen registrering nødvendig.",
+            "cta": "Start å lage fakturaer",
+            "tryDemo": "Prøv demo"
+        },
+        "features": {
+            "title": "Hvorfor velge Invoify?",
+            "subtitle": "Alt du trenger for å lage profesjonelle fakturaer",
+            "items": {
+                "free": {
+                    "title": "Helt gratis",
+                    "description": "Ingen skjulte kostnader, ingen abonnementer. Lag ubegrensede fakturaer uten kostnad."
+                },
+                "templates": {
+                    "title": "Profesjonelle maler",
+                    "description": "Velg blant flere vakkert designede fakturamaler."
+                },
+                "export": {
+                    "title": "Flere eksportformater",
+                    "description": "Eksporter som PDF, JSON, XLSX, CSV eller XML. Send direkte via e-post."
+                },
+                "preview": {
+                    "title": "Sanntidsforhåndsvisning",
+                    "description": "Se fakturaen din oppdateres i sanntid mens du fyller ut skjemaet."
+                },
+                "storage": {
+                    "title": "Lokal lagring",
+                    "description": "Lagre fakturaer i nettleseren din for enkel tilgang og redigering senere."
+                },
+                "multilingual": {
+                    "title": "Flerspråklig støtte",
+                    "description": "Lag fakturaer på flere språk med full internasjonalisering."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Hvordan det fungerer",
+            "subtitle": "Enkel 4-trinns prosess for å lage fakturaen din",
+            "steps": {
+                "step1": {
+                    "title": "Legg inn detaljer",
+                    "description": "Fyll inn informasjon om avsender og mottaker"
+                },
+                "step2": {
+                    "title": "Legg til varer",
+                    "description": "Legg til fakturavarer med mengder og priser"
+                },
+                "step3": {
+                    "title": "Tilpass",
+                    "description": "Legg til betalingsinformasjon, skatter og signatur"
+                },
+                "step4": {
+                    "title": "Eksporter og send",
+                    "description": "Last ned som PDF eller send via e-post"
+                }
+            }
+        },
+        "cta": {
+            "title": "Klar til å lage din første faktura?",
+            "subtitle": "Bli med tusenvis av brukere som stoler på Invoify for sine faktureringsbehov",
+            "button": "Start nå"
+        }
     }
 }
