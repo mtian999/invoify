@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "postinstall": "node scripts/install-dependencies.js && node node_modules/puppeteer/install.js",
+        "postinstall": "node node_modules/puppeteer/install.js",
         "start": "next start",
         "lint": "next lint",
         "analyze": "cross-env ANALYZE=true next build"
