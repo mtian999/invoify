@@ -10,8 +10,6 @@ const nextConfig = {
         });
         return config;
     },
-    // 添加Vercel特定配置
-    output: 'standalone',
 };
 
 // Bundle analyzer
