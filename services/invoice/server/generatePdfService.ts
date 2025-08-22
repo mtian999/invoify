@@ -70,7 +70,7 @@ export async function generatePdfService(req: NextRequest) {
       url: TAILWIND_CDN,
     });
 
-    const pdf: Buffer = await page.pdf({
+    const pdf: Buffer | Uint8Array = await page.pdf({
       format: "a4",
       printBackground: true,
       preferCSSPageSize: true,
