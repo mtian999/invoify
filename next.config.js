@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
-        serverComponentsExternalPackages: ["puppeteer-core"],
+        serverComponentsExternalPackages: ["puppeteer-core", "@sparticuz/chromium"],
     },
     webpack: (config) => {
         config.module.rules.push({
@@ -10,6 +10,8 @@ const nextConfig = {
         });
         return config;
     },
+    // 添加Vercel特定配置
+    output: 'standalone',
 };
 
 // Bundle analyzer

@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["hnd1"],
+  "functions": {
+    "api/invoice/generate/route.ts": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
