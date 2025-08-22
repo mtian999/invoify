@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // Chromium
-import chromium from "@sparticuz/chromium";
+import chromium from "@sparticuz/chromium-min";
 
 // Helpers
 import { getInvoiceTemplate } from "@/lib/helpers";
@@ -11,14 +11,6 @@ import { CHROMIUM_EXECUTABLE_PATH, ENV, TAILWIND_CDN } from "@/lib/variables";
 
 // Types
 import { InvoiceType } from "@/types";
-
-// 添加Chromium依赖库配置
-const exePath =
-  process.platform === "win32"
-    ? "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-    : process.platform === "linux"
-    ? "/usr/bin/google-chrome"
-    : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 /**
  * Generate a PDF document of an invoice based on the provided data.
@@ -53,10 +45,8 @@ export async function generatePdfService(req: NextRequest) {
           "--disable-software-rasterizer",
           "--font-render-hinting=none",
         ],
-        defaultViewport: chromium.defaultViewport,
-        executablePath: await chromium.executablePath(CHROMIUM_EXECUTABLE_PATH),
+        executablePath: await chromium.executablePath(),
         headless: true,
-        ignoreHTTPSErrors: true,
       });
     } else {
       const puppeteer = await import("puppeteer");
