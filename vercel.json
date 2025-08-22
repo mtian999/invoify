@@ -4,7 +4,7 @@
   "framework": "nextjs",
   "regions": ["hnd1"],
   "functions": {
-    "api/invoice/generate/route.ts": {
+    "app/api/invoice/generate/route.ts": {
       "memory": 1024,
       "maxDuration": 60
     }
