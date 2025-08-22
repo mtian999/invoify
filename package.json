@@ -34,7 +34,7 @@
         "@react-email/components": "^0.0.11",
         "@react-email/render": "^0.0.9",
         "@react-email/tailwind": "^0.0.12",
-        "@sparticuz/chromium-min": "^119.0.2",
+        "@sparticuz/chromium": "^119.0.2",
         "@types/node": "20.6.2",
         "@vercel/analytics": "^1.1.1",
         "autoprefixer": "10.4.15",

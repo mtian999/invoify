@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// Chromium
-import chromium from "@sparticuz/chromium-min";
+// Chromium for Vercel
+import chromium from "@sparticuz/chromium";
 
 // Helpers
 import { getInvoiceTemplate } from "@/lib/helpers";
@@ -35,18 +35,31 @@ export async function generatePdfService(req: NextRequest) {
 
     if (ENV === "production") {
       const puppeteer = await import("puppeteer-core");
+
+      // Vercel 优化配置
       browser = await puppeteer.launch({
         args: [
           ...chromium.args,
           "--disable-dev-shm-usage",
-          "--no-sandbox",
           "--disable-setuid-sandbox",
+          "--no-sandbox",
           "--disable-gpu",
-          "--disable-software-rasterizer",
-          "--font-render-hinting=none",
+          "--disable-web-security",
+          "--disable-features=VizDisplayCompositor",
+          "--run-all-compositor-stages-before-draw",
+          "--disable-background-timer-throttling",
+          "--disable-renderer-backgrounding",
+          "--disable-backgrounding-occluded-windows",
+          "--disable-ipc-flooding-protection",
+          "--enable-features=NetworkService,NetworkServiceInProcess",
+          "--force-color-profile=srgb",
+          "--metrics-recording-only",
+          "--use-mock-keychain",
         ],
+        defaultViewport: chromium.defaultViewport,
         executablePath: await chromium.executablePath(CHROMIUM_EXECUTABLE_PATH),
-        headless: true,
+        headless: chromium.headless,
+        ignoreHTTPSErrors: true,
       });
     } else {
       const puppeteer = await import("puppeteer");
