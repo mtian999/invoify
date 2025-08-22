@@ -45,7 +45,7 @@ export async function generatePdfService(req: NextRequest) {
           "--disable-software-rasterizer",
           "--font-render-hinting=none",
         ],
-        executablePath: await chromium.executablePath(),
+        executablePath: await chromium.executablePath(CHROMIUM_EXECUTABLE_PATH),
         headless: true,
       });
     } else {
