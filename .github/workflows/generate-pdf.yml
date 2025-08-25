@@ -1,0 +1,74 @@
+name: Generate PDF with Chromium
+
+on:
+  workflow_dispatch:
+    inputs:
+      invoice_data:
+        description: "Invoice data as JSON string"
+        required: true
+        type: string
+  repository_dispatch:
+    types: [generate-pdf]
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3-dev \
+            libatk-bridge2.0-dev \
+            libdrm-dev \
+            libxkbcommon-dev \
+            libxcomposite-dev \
+            libxdamage-dev \
+            libxrandr-dev \
+            libgbm-dev \
+            libxss-dev \
+            libasound2-dev
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate PDF
+        run: |
+          node -e "
+          const fs = require('fs');
+          const { generatePdfService } = require('./services/invoice/server/generatePdfService.ts');
+
+          const invoiceData = JSON.parse(process.env.INVOICE_DATA || '{}');
+
+          // 模拟Next.js请求对象
+          const mockReq = {
+            json: async () => invoiceData
+          };
+
+          generatePdfService(mockReq).then(response => {
+            // 保存生成的PDF
+            console.log('PDF generated successfully');
+          }).catch(error => {
+            console.error('PDF generation failed:', error);
+            process.exit(1);
+          });
+          "
+        env:
+          INVOICE_DATA: ${{ github.event.inputs.invoice_data || github.event.client_payload.invoice_data }}
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pdf
+          path: "*.pdf"
+          retention-days: 7
