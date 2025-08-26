@@ -29,74 +29,52 @@ export async function generatePdfService(req: NextRequest) {
       InvoiceTemplate(body)
     );
 
-    if (ENV !== "production") {
-      const data = {
-        html: htmlTemplate,
-      };
-      const apiKey = process.env.PDF_GENERATOR_API_KEY;
-      const url = process.env.PDF_GENERATOR_URL;
-      if (!apiKey || !url) {
-        throw new Error("PDF Generator API key or URL not found");
-      }
-      const response = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${apiKey}`,
-        },
-        body: JSON.stringify(data),
-      });
+    const data = {
+      html: htmlTemplate,
+    };
+    const apiKey = process.env.PDF_GENERATOR_API_KEY;
+    const url = process.env.PDF_GENERATOR_URL;
+    if (!apiKey || !url) {
+      throw new Error("PDF Generator API key or URL not found");
+    }
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify(data),
+    });
 
-      const result = await response.blob();
-
-      return new NextResponse(result, {
-        headers: {
-          "Content-Type": "application/pdf",
-          "Content-Disposition": "attachment; filename=invoice.pdf",
-          "Cache-Control": "no-cache",
-          Pragma: "no-cache",
-        },
-        status: 200,
-      });
-    } else {
-      const puppeteer = await import("puppeteer");
-      browser = await puppeteer.launch({
-        args: ["--no-sandbox", "--disable-setuid-sandbox"],
-        headless: "new",
-      });
-      if (!browser) {
-        throw new Error("Failed to launch browser");
-      }
-
-      page = await browser.newPage();
-      await page.setContent(await htmlTemplate, {
-        waitUntil: ["networkidle0", "load", "domcontentloaded"],
-        timeout: 30000,
-      });
-
-      await page.addStyleTag({
-        url: TAILWIND_CDN,
-      });
-
-      const pdf: Buffer = await page.pdf({
-        format: "a4",
-        printBackground: true,
-        preferCSSPageSize: true,
-      });
-
+    if (!response.ok) {
+      const errorText = await response.text();
       return new NextResponse(
-        new Blob([new Uint8Array(pdf)], { type: "application/pdf" }),
+        JSON.stringify({
+          error: "PDF生成服务响应错误",
+          status: response.status,
+          statusText: response.statusText,
+          details: errorText,
+        }),
         {
+          status: response.status,
           headers: {
-            "Content-Type": "application/pdf",
-            "Content-Disposition": "attachment; filename=invoice.pdf",
-            "Cache-Control": "no-cache",
-            Pragma: "no-cache",
+            "Content-Type": "application/json",
           },
-          status: 200,
         }
       );
     }
+
+    const result = await response.blob();
+
+    return new NextResponse(result, {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": "attachment; filename=invoice.pdf",
+        "Cache-Control": "no-cache",
+        Pragma: "no-cache",
+      },
+      status: 200,
+    });
   } catch (error) {
     console.error("PDF Generation Error:", error);
     return new NextResponse(
@@ -109,21 +87,5 @@ export async function generatePdfService(req: NextRequest) {
       }
     );
   } finally {
-    if (page) {
-      try {
-        await page.close();
-      } catch (e) {
-        console.error("Error closing page:", e);
-      }
-    }
-    if (browser) {
-      try {
-        const pages = await browser.pages();
-        await Promise.all(pages.map((p) => p.close()));
-        await browser.close();
-      } catch (e) {
-        console.error("Error closing browser:", e);
-      }
-    }
   }
 }
