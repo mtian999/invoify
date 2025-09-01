@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Podgląd wydruku",
+        "saveAsPdf": "Zapisz jako PDF",
+        "print": "Drukuj",
+        "empty": {
+            "message": "Nie znaleziono danych faktury do wydruku. Wróć do edytora, aby utworzyć lub zapisać fakturę, a następnie spróbuj ponownie.",
+            "backToEditor": "Wróć do edytora"
+        }
     }
 }

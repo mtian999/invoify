@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Pregled štampe",
+        "saveAsPdf": "Sačuvaj kao PDF",
+        "print": "Štampaj",
+        "empty": {
+            "message": "Nisu pronađeni podaci fakture za štampu. Vratite se u uređivač da kreirate ili sačuvate fakturu, zatim pokušajte ponovo.",
+            "backToEditor": "Nazad u uređivač"
+        }
     }
 }

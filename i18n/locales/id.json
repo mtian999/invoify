@@ -234,5 +234,14 @@
         }
       ]
     }
+  },
+  "print": {
+    "title": "Pratinjau Cetak",
+    "saveAsPdf": "Simpan sebagai PDF",
+    "print": "Cetak",
+    "empty": {
+      "message": "Tidak ditemukan data faktur untuk dicetak. Silakan kembali ke editor untuk membuat atau menyimpan faktur, lalu coba lagi.",
+      "backToEditor": "Kembali ke Editor"
+    }
   }
 }

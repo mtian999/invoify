@@ -235,5 +235,14 @@
         }
       ]
     }
+  },
+  "print": {
+    "title": "Print Preview",
+    "saveAsPdf": "Save as PDF",
+    "print": "Print",
+    "empty": {
+      "message": "No invoice data found for printing. Please return to the editor to create or save an invoice, then try again.",
+      "backToEditor": "Back to Editor"
+    }
   }
 }

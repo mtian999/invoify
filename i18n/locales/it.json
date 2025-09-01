@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Anteprima di stampa",
+        "saveAsPdf": "Salva come PDF",
+        "print": "Stampa",
+        "empty": {
+            "message": "Nessun dato di fattura trovato per la stampa. Torna all'editor per creare o salvare una fattura e riprova.",
+            "backToEditor": "Torna all'editor"
+        }
     }
 }

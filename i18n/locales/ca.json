@@ -234,5 +234,14 @@
 				}
 			]
 		}
+	},
+	"print": {
+		"title": "Previsualització d'impressió",
+		"saveAsPdf": "Desa com a PDF",
+		"print": "Imprimeix",
+		"empty": {
+			"message": "No s'han trobat dades de factura per imprimir. Torna a l'editor per crear o desar una factura i torna-ho a provar.",
+			"backToEditor": "Torna a l'editor"
+		}
 	}
 }

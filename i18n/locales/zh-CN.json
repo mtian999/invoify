@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "打印预览",
+        "saveAsPdf": "保存为 PDF",
+        "print": "打印",
+        "empty": {
+            "message": "没有找到可打印的发票数据。请返回编辑器创建或保存发票后再试一次。",
+            "backToEditor": "返回编辑器"
+        }
     }
 }

@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Aperçu avant impression",
+        "saveAsPdf": "Enregistrer au format PDF",
+        "print": "Imprimer",
+        "empty": {
+            "message": "Aucune donnée de facture trouvée pour l'impression. Retournez à l'éditeur pour créer ou enregistrer une facture, puis réessayez.",
+            "backToEditor": "Retour à l'éditeur"
+        }
     }
 }

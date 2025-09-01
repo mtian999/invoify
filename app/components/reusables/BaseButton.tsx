@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { forwardRef } from "react";
 
 // ShadCn
 import { Button, ButtonProps } from "@/components/ui/button";
@@ -22,51 +22,43 @@ type BaseButtonProps = {
     children?: React.ReactNode;
 } & ButtonProps;
 
-const BaseButton = ({
-    tooltipLabel,
-    type = "button",
-    loading,
-    loadingText = "Loading",
-    children,
-    ...props
-}: BaseButtonProps) => {
-    const withoutTooltip = (
-        <>
-            {!loading ? (
-                <Button className="flex gap-2" type={type} {...props}>
-                    {children}
-                </Button>
-            ) : (
-                <Button disabled>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {loadingText}
-                </Button>
-            )}
-        </>
-    );
+const BaseButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
+    (
+        {
+            tooltipLabel,
+            type = "button",
+            loading,
+            loadingText = "Loading",
+            children,
+            ...props
+        },
+        ref
+    ) => {
+        const content = !loading ? (
+            <Button ref={ref} className="flex gap-2" type={type} {...props}>
+                {children}
+            </Button>
+        ) : (
+            <Button ref={ref} type={type} {...props} disabled>
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                {loadingText}
+            </Button>
+        );
 
-    if (!tooltipLabel) return withoutTooltip;
-    return (
-        <TooltipProvider>
-            <Tooltip>
-                <TooltipTrigger asChild>
-                    {!loading ? (
-                        <Button className="flex gap-2" type={type} {...props}>
-                            {children}
-                        </Button>
-                    ) : (
-                        <Button type={type} {...props} disabled>
-                            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                            {loadingText}
-                        </Button>
-                    )}
-                </TooltipTrigger>
-                <TooltipContent>
-                    <p>{tooltipLabel}</p>
-                </TooltipContent>
-            </Tooltip>
-        </TooltipProvider>
-    );
-};
+        if (!tooltipLabel) return content;
+        return (
+            <TooltipProvider>
+                <Tooltip>
+                    <TooltipTrigger asChild>{content}</TooltipTrigger>
+                    <TooltipContent>
+                        <p>{tooltipLabel}</p>
+                    </TooltipContent>
+                </Tooltip>
+            </TooltipProvider>
+        );
+    }
+);
+
+BaseButton.displayName = "BaseButton";
 
 export default BaseButton;

@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Vista previa de impresión",
+        "saveAsPdf": "Guardar como PDF",
+        "print": "Imprimir",
+        "empty": {
+            "message": "No se encontraron datos de factura para imprimir. Vuelve al editor para crear o guardar una factura y luego inténtalo de nuevo.",
+            "backToEditor": "Volver al editor"
+        }
     }
 }

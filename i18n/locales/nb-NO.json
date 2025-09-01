@@ -195,12 +195,6 @@
           "author": "Erik Olsen",
           "role": "Markedsføringskonsulent",
           "rating": 4
-        },
-        {
-          "quote": "Rent grensesnitt, brukervennlighet og helt gratis. Hva mer kan man ønske seg?",
-          "author": "Marte Pedersen",
-          "role": "Frilansutvikler",
-          "rating": 5
         }
       ]
     },
@@ -233,6 +227,15 @@
           "answer": "Invoify støtter 14 språk, inkludert norsk, engelsk, spansk, fransk, tysk og kinesisk."
         }
       ]
+    }
+  },
+  "print": {
+    "title": "Utskriftsforhåndsvisning",
+    "saveAsPdf": "Lagre som PDF",
+    "print": "Skriv ut",
+    "empty": {
+      "message": "Fant ingen fakturadata for utskrift. Gå tilbake til redigereren for å opprette eller lagre en faktura, og prøv igjen.",
+      "backToEditor": "Tilbake til redigerer"
     }
   }
 }

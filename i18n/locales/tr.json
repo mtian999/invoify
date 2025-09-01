@@ -234,5 +234,14 @@
         }
       ]
     }
+  },
+  "print": {
+    "title": "Yazdırma Önizlemesi",
+    "saveAsPdf": "PDF olarak kaydet",
+    "print": "Yazdır",
+    "empty": {
+      "message": "Yazdırmak için fatura verisi bulunamadı. Bir fatura oluşturmak veya kaydetmek için editöre dönün ve tekrar deneyin.",
+      "backToEditor": "Editöre dön"
+    }
   }
 }

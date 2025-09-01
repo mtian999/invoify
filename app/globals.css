@@ -125,3 +125,20 @@ button {
 .rdp-vhidden {
     @apply hidden;
 }
+
+/* =========================
+   * Print styles
+   ========================= */
+@media print {
+  /* Hide UI elements not intended for print */
+  .no-print { display: none !important; }
+
+  /* Improve color fidelity when printing */
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* Define default page settings */
+@page {
+  size: A4;
+  margin: 12mm;
+}

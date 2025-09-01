@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Druckvorschau",
+        "saveAsPdf": "Als PDF speichern",
+        "print": "Drucken",
+        "empty": {
+            "message": "Keine Rechnungsdaten zum Drucken gefunden. Bitte kehren Sie zum Editor zurück, um eine Rechnung zu erstellen oder zu speichern, und versuchen Sie es erneut.",
+            "backToEditor": "Zurück zum Editor"
+        }
     }
 }

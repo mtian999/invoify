@@ -234,5 +234,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Utskriftsførehandsvising",
+        "saveAsPdf": "Lagre som PDF",
+        "print": "Skriv ut",
+        "empty": {
+            "message": "Fann ingen fakturadata for utskrift. Gå tilbake til redigeraren for å opprette eller lagre ei faktura, og prøv igjen.",
+            "backToEditor": "Tilbake til redigerar"
+        }
     }
 }

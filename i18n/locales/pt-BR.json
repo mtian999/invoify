@@ -241,5 +241,14 @@
                 }
             ]
         }
+    },
+    "print": {
+        "title": "Pré-visualização de impressão",
+        "saveAsPdf": "Salvar como PDF",
+        "print": "Imprimir",
+        "empty": {
+            "message": "Nenhum dado de fatura encontrado para impressão. Volte ao editor para criar ou salvar uma fatura e tente novamente.",
+            "backToEditor": "Voltar para o editor"
+        }
     }
 }
