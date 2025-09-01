@@ -1,217 +1,238 @@
 {
-    "form": {
-        "title": "Faktura",
-        "description": "Generer faktura",
-        "newInvBadge": "Ny faktura",
-        "wizard": {
-            "fromAndTo": "Fra & til",
-            "invoiceDetails": "Fakturadetaljer",
-            "lineItems": "Varelinjer",
-            "paymentInfo": "Betalingsinformasjon",
-            "summary": "Sammendrag",
-            "next": "Neste",
-            "back": "Tilbake"
-        },
-        "steps": {
-            "fromAndTo": {
-                "billFrom": "Faktura fra",
-                "billTo": "Faktura til",
-                "name": "Navn",
-                "address": "Adresse",
-                "zipCode": "Postnummer",
-                "city": "By",
-                "country": "Land",
-                "email": "E-post",
-                "phone": "Telefon",
-                "addCustomInput": "Legg til egendefinert felt",
-                "sender": "Avsender",
-                "receiver": "Mottaker"
-            },
-            "invoiceDetails": {
-                "heading": "Fakturadetaljer",
-                "invoiceLogo": {
-                    "label": "Fakturalogo",
-                    "placeholder": "Klikk for å laste opp bilde"
-                },
-                "invoiceNumber": "Fakturanummer",
-                "issuedDate": "Utstedelsesdato",
-                "dueDate": "Forfallsdato",
-                "currency": "Valuta"
-            },
-            "lineItems": {
-                "heading": "Varer",
-                "item": "Vare",
-                "name": "Navn",
-                "quantity": "Antall",
-                "rate": "Pris",
-                "total": "Totalt",
-                "description": "Beskrivelse",
-                "addNewItem": "Legg til ny vare",
-                "removeItem": "Fjern vare"
-            },
-            "paymentInfo": {
-                "heading": "Betalingsinformasjon",
-                "bankName": "Banknavn",
-                "accountName": "Kontonavn",
-                "accountNumber": "Kontonummer"
-            },
-            "summary": {
-                "heading": "Sammendrag",
-                "signature": {
-                    "heading": "Signatur",
-                    "placeholder": "Klikk for å legge til signatur",
-                    "draw": "Tegn",
-                    "type": "Skriv",
-                    "upload": "Last opp"
-                },
-                "additionalNotes": "Tilleggsnotater",
-                "paymentTerms": "Betalingsbetingelser",
-                "discount": "Rabatt",
-                "tax": "MVA",
-                "shipping": "Frakt",
-                "subTotal": "Delsum",
-                "totalAmount": "Totalbeløp",
-                "includeTotalInWords": "Inkluder totalbeløp med ord?",
-                "yes": "Ja",
-                "no": "Nei"
-            }
-        }
+  "form": {
+    "title": "Faktura",
+    "description": "Generer faktura",
+    "newInvBadge": "Ny faktura",
+    "wizard": {
+      "fromAndTo": "Fra & til",
+      "invoiceDetails": "Fakturadetaljer",
+      "lineItems": "Varelinjer",
+      "paymentInfo": "Betalingsinformasjon",
+      "summary": "Sammendrag",
+      "next": "Neste",
+      "back": "Tilbake"
     },
-    "actions": {
-        "title": "Handlinger",
-        "description": "Operasjoner og forhåndsvisning",
-        "loadInvoice": "Last inn faktura",
-        "exportInvoice": "Eksporter faktura",
-        "newInvoice": "Ny faktura",
-        "generatePdf": "Generer PDF",
-        "pdfView": "PDF-visning"
-    },
-    "footer": {
-        "developedBy": "Utviklet av"
-    },
-    "landing": {
-        "hero": {
-            "title": "Lag profesjonelle fakturaer på minutter",
-            "subtitle": "Gratis, rask og funksjonsrik fakturagenerator. Ingen registrering nødvendig.",
-            "cta": "Start å lage fakturaer",
-            "tryDemo": "Prøv demo"
+    "steps": {
+      "fromAndTo": {
+        "billFrom": "Faktura fra",
+        "billTo": "Faktura til",
+        "name": "Navn",
+        "address": "Adresse",
+        "zipCode": "Postnummer",
+        "city": "By",
+        "country": "Land",
+        "email": "E-post",
+        "phone": "Telefon",
+        "addCustomInput": "Legg til egendefinert felt",
+        "sender": "Avsender",
+        "receiver": "Mottaker"
+      },
+      "invoiceDetails": {
+        "heading": "Fakturadetaljer",
+        "invoiceLogo": {
+          "label": "Fakturalogo",
+          "placeholder": "Klikk for å laste opp bilde"
         },
-        "features": {
-            "title": "Hvorfor velge Invoify?",
-            "subtitle": "Alt du trenger for å lage profesjonelle fakturaer",
-            "items": {
-                "free": {
-                    "title": "Helt gratis",
-                    "description": "Ingen skjulte kostnader, ingen abonnementer. Lag ubegrensede fakturaer uten kostnad."
-                },
-                "templates": {
-                    "title": "Profesjonelle maler",
-                    "description": "Velg blant flere vakkert designede fakturamaler."
-                },
-                "export": {
-                    "title": "Flere eksportformater",
-                    "description": "Eksporter som PDF, JSON, XLSX, CSV eller XML. Send direkte via e-post."
-                },
-                "preview": {
-                    "title": "Sanntidsforhåndsvisning",
-                    "description": "Se fakturaen din oppdateres i sanntid mens du fyller ut skjemaet."
-                },
-                "storage": {
-                    "title": "Lokal lagring",
-                    "description": "Lagre fakturaer i nettleseren din for enkel tilgang og redigering senere."
-                },
-                "multilingual": {
-                    "title": "Flerspråklig støtte",
-                    "description": "Lag fakturaer på flere språk med full internasjonalisering."
-                }
-            }
+        "invoiceNumber": "Fakturanummer",
+        "issuedDate": "Utstedelsesdato",
+        "dueDate": "Forfallsdato",
+        "currency": "Valuta"
+      },
+      "lineItems": {
+        "heading": "Varer",
+        "item": "Vare",
+        "name": "Navn",
+        "quantity": "Antall",
+        "rate": "Pris",
+        "total": "Totalt",
+        "description": "Beskrivelse",
+        "addNewItem": "Legg til ny vare",
+        "removeItem": "Fjern vare"
+      },
+      "paymentInfo": {
+        "heading": "Betalingsinformasjon",
+        "bankName": "Banknavn",
+        "accountName": "Kontonavn",
+        "accountNumber": "Kontonummer"
+      },
+      "summary": {
+        "heading": "Sammendrag",
+        "signature": {
+          "heading": "Signatur",
+          "placeholder": "Klikk for å legge til signatur",
+          "draw": "Tegn",
+          "type": "Skriv",
+          "upload": "Last opp"
         },
-        "howItWorks": {
-            "title": "Hvordan det fungerer",
-            "subtitle": "Enkel 4-trinns prosess for å lage fakturaen din",
-            "steps": {
-                "step1": {
-                    "title": "Legg inn detaljer",
-                    "description": "Fyll inn informasjon om avsender og mottaker"
-                },
-                "step2": {
-                    "title": "Legg til varer",
-                    "description": "Legg til fakturavarer med mengder og priser"
-                },
-                "step3": {
-                    "title": "Tilpass",
-                    "description": "Legg til betalingsinformasjon, skatter og signatur"
-                },
-                "step4": {
-                    "title": "Eksporter og send",
-                    "description": "Last ned som PDF eller send via e-post"
-                }
-            }
-        },
-        "cta": {
-            "title": "Klar til å lage din første faktura?",
-            "subtitle": "Bli med tusenvis av brukere som stoler på Invoify for sine faktureringsbehov",
-            "button": "Start nå"
-        },
-        "testimonials": {
-            "title": "Hva våre brukere sier",
-            "subtitle": "Betrodd av frilansere og bedrifter over hele verden",
-            "items": [
-                {
-                    "quote": "Invoify har forenklet faktureringsprosessen min. Jeg kan lage profesjonelle fakturaer på minutter!",
-                    "author": "Anders Johansen",
-                    "role": "Frilansgrafiker",
-                    "rating": 5
-                },
-                {
-                    "quote": "De mange eksportformatene og lokal lagringsfunksjon sparer meg for mye tid. Sterkt anbefalt!",
-                    "author": "Ingrid Larsen",
-                    "role": "Småbedriftseier",
-                    "rating": 5
-                },
-                {
-                    "quote": "Som profesjonell som jobber med internasjonale kunder, er flerspåklig støtte uvurderlig.",
-                    "author": "Erik Olsen",
-                    "role": "Markedsføringskonsulent",
-                    "rating": 4
-                },
-                {
-                    "quote": "Rent grensesnitt, brukervennlighet og helt gratis. Hva mer kan man ønske seg?",
-                    "author": "Marte Pedersen",
-                    "role": "Frilansutvikler",
-                    "rating": 5
-                }
-            ]
-        },
-        "faq": {
-            "title": "Ofte stilte spørsmål",
-            "subtitle": "Finn svar på vanlige spørsmål om Invoify",
-            "items": [
-                {
-                    "question": "Er Invoify virkelig gratis?",
-                    "answer": "Ja, Invoify er helt gratis, uten skjulte kostnader eller abonnementer. Du kan lage ubegrensede fakturaer."
-                },
-                {
-                    "question": "Må jeg opprette en konto for å bruke Invoify?",
-                    "answer": "Nei, Invoify krever ingen registrering. For å beskytte personvernet ditt, lagres data lokalt i nettleseren din."
-                },
-                {
-                    "question": "Hvilke eksportformater støttes?",
-                    "answer": "Invoify støtter eksport av fakturaer i PDF, JSON, XLSX, CSV og XML-formater."
-                },
-                {
-                    "question": "Er dataene mine trygge når jeg bruker Invoify?",
-                    "answer": "Ja, dataene dine forlater aldri datamaskinen din. All fakturainformasjon lagres lokalt i nettleseren din, noe som sikrer fullstendig personvern."
-                },
-                {
-                    "question": "Kan jeg tilpasse fakturamaler?",
-                    "answer": "Ja, Invoify tilbyr flere profesjonelle maler som du kan tilpasse med din logo, farger og andre detaljer."
-                },
-                {
-                    "question": "Hvilke språk støtter Invoify?",
-                    "answer": "Invoify støtter 14 språk, inkludert norsk, engelsk, spansk, fransk, tysk og kinesisk."
-                }
-            ]
-        }
+        "additionalNotes": "Tilleggsnotater",
+        "paymentTerms": "Betalingsbetingelser",
+        "discount": "Rabatt",
+        "tax": "MVA",
+        "shipping": "Frakt",
+        "subTotal": "Delsum",
+        "totalAmount": "Totalbeløp",
+        "includeTotalInWords": "Inkluder totalbeløp med ord?",
+        "yes": "Ja",
+        "no": "Nei"
+      }
     }
+  },
+  "actions": {
+    "title": "Handlinger",
+    "description": "Operasjoner og forhåndsvisning",
+    "loadInvoice": "Last inn faktura",
+    "exportInvoice": "Eksporter faktura",
+    "newInvoice": "Ny faktura",
+    "generatePdf": "Generer PDF",
+    "pdfView": "PDF-visning"
+  },
+  "footer": {
+    "developedBy": "Utviklet av"
+  },
+  "landing": {
+    "seo": {
+      "title": "Invoify — Gratis fakturagenerator på nett | Lag profesjonelle fakturaer raskt",
+      "description": "Lag profesjonelle fakturaer gratis med Invoify — en rask fakturagenerator uten registrering for frilansere og små bedrifter. Velg profesjonelle maler med sanntidsforhåndsvisning og eksporter fakturaer til PDF, JSON, XLSX, CSV eller XML. Lag fakturaer på minutter, send på e‑post, skriv ut på nett og opprett enkle skattefakturaer (MVA/GST/VAT) med flerspråklig støtte.",
+      "keywords": [
+        "gratis fakturagenerator på nett",
+        "lag profesjonelle fakturaer på minutter",
+        "last ned faktura som PDF gratis",
+        "fakturamal for frilansere",
+        "fakturagenerator for små bedrifter",
+        "fakturagenerator uten registrering",
+        "flerspråklig fakturagenerator",
+        "eksporter faktura JSON XLSX CSV XML",
+        "fakturaapp for web",
+        "beste gratis fakturagenerator 2025",
+        "utskriftsvennlig fakturamal på nett",
+        "skattefaktura generator MVA GST VAT",
+        "enkelt fakturaverktøy for entreprenører",
+        "send faktura på e‑post gratis",
+        "profesjonelle fakturamaler gratis"
+      ]
+    },
+    "hero": {
+      "title": "Lag profesjonelle fakturaer på minutter",
+      "subtitle": "Gratis, rask og funksjonsrik fakturagenerator. Ingen registrering nødvendig.",
+      "cta": "Start å lage fakturaer",
+      "tryDemo": "Prøv demo"
+    },
+    "features": {
+      "title": "Hvorfor velge Invoify?",
+      "subtitle": "Alt du trenger for å lage profesjonelle fakturaer",
+      "items": {
+        "free": {
+          "title": "Helt gratis",
+          "description": "Ingen skjulte kostnader, ingen abonnementer. Lag ubegrensede fakturaer uten kostnad."
+        },
+        "templates": {
+          "title": "Profesjonelle maler",
+          "description": "Velg blant flere vakkert designede fakturamaler."
+        },
+        "export": {
+          "title": "Flere eksportformater",
+          "description": "Eksporter som PDF, JSON, XLSX, CSV eller XML. Send direkte via e-post."
+        },
+        "preview": {
+          "title": "Sanntidsforhåndsvisning",
+          "description": "Se fakturaen din oppdateres i sanntid mens du fyller ut skjemaet."
+        },
+        "storage": {
+          "title": "Lokal lagring",
+          "description": "Lagre fakturaer i nettleseren din for enkel tilgang og redigering senere."
+        },
+        "multilingual": {
+          "title": "Flerspråklig støtte",
+          "description": "Lag fakturaer på flere språk med full internasjonalisering."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Hvordan det fungerer",
+      "subtitle": "Enkel 4-trinns prosess for å lage fakturaen din",
+      "steps": {
+        "step1": {
+          "title": "Legg inn detaljer",
+          "description": "Fyll inn informasjon om avsender og mottaker"
+        },
+        "step2": {
+          "title": "Legg til varer",
+          "description": "Legg til fakturavarer med mengder og priser"
+        },
+        "step3": {
+          "title": "Tilpass",
+          "description": "Legg til betalingsinformasjon, skatter og signatur"
+        },
+        "step4": {
+          "title": "Eksporter og send",
+          "description": "Last ned som PDF eller send via e-post"
+        }
+      }
+    },
+    "cta": {
+      "title": "Klar til å lage din første faktura?",
+      "subtitle": "Bli med tusenvis av brukere som stoler på Invoify for sine faktureringsbehov",
+      "button": "Start nå"
+    },
+    "testimonials": {
+      "title": "Hva våre brukere sier",
+      "subtitle": "Betrodd av frilansere og bedrifter over hele verden",
+      "items": [
+        {
+          "quote": "Invoify har forenklet faktureringsprosessen min. Jeg kan lage profesjonelle fakturaer på minutter!",
+          "author": "Anders Johansen",
+          "role": "Frilansgrafiker",
+          "rating": 5
+        },
+        {
+          "quote": "De mange eksportformatene og lokal lagringsfunksjon sparer meg for mye tid. Sterkt anbefalt!",
+          "author": "Ingrid Larsen",
+          "role": "Småbedriftseier",
+          "rating": 5
+        },
+        {
+          "quote": "Som profesjonell som jobber med internasjonale kunder, er flerspråklig støtte uvurderlig.",
+          "author": "Erik Olsen",
+          "role": "Markedsføringskonsulent",
+          "rating": 4
+        },
+        {
+          "quote": "Rent grensesnitt, brukervennlighet og helt gratis. Hva mer kan man ønske seg?",
+          "author": "Marte Pedersen",
+          "role": "Frilansutvikler",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål",
+      "subtitle": "Finn svar på vanlige spørsmål om Invoify",
+      "items": [
+        {
+          "question": "Er Invoify virkelig gratis?",
+          "answer": "Ja, Invoify er helt gratis, uten skjulte kostnader eller abonnementer. Du kan lage ubegrensede fakturaer."
+        },
+        {
+          "question": "Må jeg opprette en konto for å bruke Invoify?",
+          "answer": "Nei, Invoify krever ingen registrering. For å beskytte personvernet ditt, lagres data lokalt i nettleseren din."
+        },
+        {
+          "question": "Hvilke eksportformater støttes?",
+          "answer": "Invoify støtter eksport av fakturaer i PDF, JSON, XLSX, CSV og XML-formater."
+        },
+        {
+          "question": "Er dataene mine trygge når jeg bruker Invoify?",
+          "answer": "Ja, dataene dine forlater aldri datamaskinen din. All fakturainformasjon lagres lokalt i nettleseren din, noe som sikrer fullstendig personvern."
+        },
+        {
+          "question": "Kan jeg tilpasse fakturamaler?",
+          "answer": "Ja, Invoify tilbyr flere profesjonelle maler som du kan tilpasse med din logo, farger og andre detaljer."
+        },
+        {
+          "question": "Hvilke språk støtter Invoify?",
+          "answer": "Invoify støtter 14 språk, inkludert norsk, engelsk, spansk, fransk, tysk og kinesisk."
+        }
+      ]
+    }
+  }
 }

@@ -90,6 +90,27 @@
 		"developedBy": "Desenvolupat per"
 	},
 	"landing": {
+		"seo": {
+			"title": "Invoify — Generador de factures gratuït en línia | Crea factures professionals ràpidament",
+			"description": "Crea factures professionals gratuïtament amb Invoify — un generador de factures ràpid i sense registre per a autònoms i petites empreses. Tria plantilles professionals amb vista prèvia en viu i exporta les factures en PDF, JSON, XLSX, CSV o XML. Crea factures en minuts, envia-les per correu electrònic, imprimeix-les en línia i genera factures fiscals simples GST/VAT amb suport multilingüe.",
+			"keywords": [
+				"generador de factures gratuït en línia",
+				"crea factures professionals en minuts",
+				"descarregar la factura en PDF gratis",
+				"plantilla de factura per a autònoms",
+				"generador de factures per a petites empreses",
+				"generador de factures sense registre",
+				"generador de factures multilingüe",
+				"exportar factura JSON XLSX CSV XML",
+				"aplicació de factures per al web",
+				"millor generador de factures gratuït 2025",
+				"plantilla de factura imprimible en línia",
+				"generador de factura fiscal GST VAT",
+				"creador de factures senzilles per a contractistes",
+				"enviar factura per correu gratuïtament",
+				"plantilles de factura professionals gratuïtes"
+			]
+		},
 		"hero": {
 			"title": "Crea factures professionals en minuts",
 			"subtitle": "Generador de factures gratuït, ràpid i amb moltes funcionalitats. No cal registrar-se.",

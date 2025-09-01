@@ -90,6 +90,27 @@
         "developedBy": "Entwickelt von"
     },
     "landing": {
+        "seo": {
+            "title": "Invoify — Kostenloser Online-Rechnungsgenerator | Professionelle Rechnungen schnell erstellen",
+            "description": "Erstellen Sie professionelle Rechnungen kostenlos mit Invoify — einem schnellen Rechnungstool ohne Registrierung für Freiberufler und kleine Unternehmen. Wählen Sie professionelle Vorlagen mit Live-Vorschau und exportieren Sie Rechnungen als PDF, JSON, XLSX, CSV oder XML. Erstellen Sie Rechnungen in Minuten, versenden Sie sie per E-Mail, drucken Sie online und erzeugen Sie einfache GST/VAT-Steuerrechnungen mit Mehrsprachenunterstützung.",
+            "keywords": [
+                "kostenloser Rechnungsgenerator online",
+                "professionelle Rechnungen in Minuten erstellen",
+                "Rechnung als PDF kostenlos herunterladen",
+                "Rechnungsvorlage für Freelancer",
+                "Rechnungstool für kleine Unternehmen",
+                "Rechnungsgenerator ohne Registrierung",
+                "mehrsprachiger Rechnungsgenerator",
+                "Rechnung exportieren JSON XLSX CSV XML",
+                "Rechnungs-App fürs Web",
+                "bester kostenloser Rechnungsgenerator 2025",
+                "online druckbare Rechnungsvorlage",
+                "GST VAT Steuerrechnungsgenerator",
+                "einfacher Rechnungsersteller für Auftragnehmer",
+                "Rechnung per E-Mail kostenlos senden",
+                "kostenlose professionelle Rechnungsvorlagen"
+            ]
+        },
         "hero": {
             "title": "Erstellen Sie professionelle Rechnungen in Minuten",
             "subtitle": "Kostenloser, schneller und funktionsreicher Rechnungsgenerator. Keine Registrierung erforderlich.",

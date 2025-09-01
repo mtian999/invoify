@@ -1,217 +1,239 @@
 {
-    "form": {
-        "title": "Invoice",
-        "description": "Generate Invoice",
-        "newInvBadge": "New Invoice",
-        "wizard": {
-            "fromAndTo": "From & To",
-            "invoiceDetails": "Invoice Details",
-            "lineItems": "Line Items",
-            "paymentInfo": "Payment Info",
-            "summary": "Summary",
-            "next": "Next",
-            "back": "Back"
-        },
-        "steps": {
-            "fromAndTo": {
-                "billFrom": "Bill From",
-                "billTo": "Bill To",
-                "name": "Name",
-                "address": "Address",
-                "zipCode": "Zip",
-                "city": "City",
-                "country": "Country",
-                "email": "Email",
-                "phone": "Phone",
-                "addCustomInput": "Add Custom Input",
-                "sender": "Sender",
-                "receiver": "Receiver"
-            },
-            "invoiceDetails": {
-                "heading": "Invoice Details",
-                "invoiceLogo": {
-                    "label": "Invoice Logo",
-                    "placeholder": "Click to upload image"
-                },
-                "invoiceNumber": "Invoice Number",
-                "issuedDate": "Issue Date",
-                "dueDate": "Due Date",
-                "currency": "Currency"
-            },
-            "lineItems": {
-                "heading": "Items",
-                "item": "Item",
-                "name": "Name",
-                "quantity": "Quantity",
-                "rate": "Rate",
-                "total": "Total",
-                "description": "Description",
-                "addNewItem": "Add a new item",
-                "removeItem": "Remove item"
-            },
-            "paymentInfo": {
-                "heading": "Payment Information",
-                "bankName": "Bank Name",
-                "accountName": "Account Name",
-                "accountNumber": "Account Number"
-            },
-            "summary": {
-                "heading": "Summary",
-                "signature": {
-                    "heading": "Signature",
-                    "placeholder": "Click to add signature",
-                    "draw": "Draw",
-                    "type": "Type",
-                    "upload": "Upload"
-                },
-                "additionalNotes": "Additional Notes",
-                "paymentTerms": "Payment Terms",
-                "discount": "Discount",
-                "tax": "Tax",
-                "shipping": "Shipping",
-                "subTotal": "Subtotal",
-                "totalAmount": "Total Amount",
-                "includeTotalInWords": "Include Total in Words?",
-                "yes": "Yes",
-                "no": "No"
-            }
-        }
+  "form": {
+    "title": "Invoice",
+    "description": "Generate Invoice",
+    "newInvBadge": "New Invoice",
+    "wizard": {
+      "fromAndTo": "From & To",
+      "invoiceDetails": "Invoice Details",
+      "lineItems": "Line Items",
+      "paymentInfo": "Payment Info",
+      "summary": "Summary",
+      "next": "Next",
+      "back": "Back"
     },
-    "actions": {
-        "title": "Actions",
-        "description": "Operations and preview",
-        "loadInvoice": "Load Invoice",
-        "exportInvoice": "Export Invoice",
-        "newInvoice": "New Invoice",
-        "generatePdf": "Generate PDF",
-        "pdfView": "PDF View"
-    },
-    "footer": {
-        "developedBy": "Developed by"
-    },
-    "landing": {
-        "hero": {
-            "title": "Create Professional Invoices in Minutes",
-            "subtitle": "Free, fast, and feature-rich invoice generator. No registration required.",
-            "cta": "Start Creating Invoices",
-            "tryDemo": "Try Demo"
+    "steps": {
+      "fromAndTo": {
+        "billFrom": "Bill From",
+        "billTo": "Bill To",
+        "name": "Name",
+        "address": "Address",
+        "zipCode": "Zip",
+        "city": "City",
+        "country": "Country",
+        "email": "Email",
+        "phone": "Phone",
+        "addCustomInput": "Add Custom Input",
+        "sender": "Sender",
+        "receiver": "Receiver"
+      },
+      "invoiceDetails": {
+        "heading": "Invoice Details",
+        "invoiceLogo": {
+          "label": "Invoice Logo",
+          "placeholder": "Click to upload image"
         },
-        "features": {
-            "title": "Why Choose Invoify?",
-            "subtitle": "Everything you need to create professional invoices",
-            "items": {
-                "free": {
-                    "title": "Completely Free",
-                    "description": "No hidden fees, no subscriptions. Create unlimited invoices at no cost."
-                },
-                "templates": {
-                    "title": "Professional Templates",
-                    "description": "Choose from multiple beautifully designed invoice templates."
-                },
-                "export": {
-                    "title": "Multiple Export Formats",
-                    "description": "Export as PDF, JSON, XLSX, CSV, or XML. Send directly via email."
-                },
-                "preview": {
-                    "title": "Live Preview",
-                    "description": "See your invoice update in real-time as you fill out the form."
-                },
-                "storage": {
-                    "title": "Local Storage",
-                    "description": "Save invoices in your browser for easy access and future editing."
-                },
-                "multilingual": {
-                    "title": "Multi-language Support",
-                    "description": "Create invoices in multiple languages with full internationalization."
-                }
-            }
+        "invoiceNumber": "Invoice Number",
+        "issuedDate": "Issue Date",
+        "dueDate": "Due Date",
+        "currency": "Currency"
+      },
+      "lineItems": {
+        "heading": "Items",
+        "item": "Item",
+        "name": "Name",
+        "quantity": "Quantity",
+        "rate": "Rate",
+        "total": "Total",
+        "description": "Description",
+        "addNewItem": "Add a new item",
+        "removeItem": "Remove item"
+      },
+      "paymentInfo": {
+        "heading": "Payment Information",
+        "bankName": "Bank Name",
+        "accountName": "Account Name",
+        "accountNumber": "Account Number"
+      },
+      "summary": {
+        "heading": "Summary",
+        "signature": {
+          "heading": "Signature",
+          "placeholder": "Click to add signature",
+          "draw": "Draw",
+          "type": "Type",
+          "upload": "Upload"
         },
-        "howItWorks": {
-            "title": "How It Works",
-            "subtitle": "Simple 4-step process to create your invoice",
-            "steps": {
-                "step1": {
-                    "title": "Enter Details",
-                    "description": "Fill in sender and receiver information"
-                },
-                "step2": {
-                    "title": "Add Items",
-                    "description": "Add line items with quantities and prices"
-                },
-                "step3": {
-                    "title": "Customize",
-                    "description": "Add payment info, taxes, and signature"
-                },
-                "step4": {
-                    "title": "Export & Send",
-                    "description": "Download PDF or send via email"
-                }
-            }
-        },
-        "cta": {
-            "title": "Ready to Create Your First Invoice?",
-            "subtitle": "Join thousands of users who trust Invoify for their invoicing needs",
-            "button": "Get Started Now"
-        },
-        "testimonials": {
-            "title": "What Our Users Say",
-            "subtitle": "Trusted by freelancers and businesses worldwide",
-            "items": [
-                {
-                    "quote": "Invoify has simplified my invoicing process. I can create professional invoices in minutes!",
-                    "author": "Sarah Johnson",
-                    "role": "Freelance Designer",
-                    "rating": 5
-                },
-                {
-                    "quote": "The multiple export formats and local storage feature save me so much time. Highly recommended!",
-                    "author": "Michael Chen",
-                    "role": "Small Business Owner",
-                    "rating": 5
-                },
-                {
-                    "quote": "As someone who works with international clients, the multi-language support is a game-changer.",
-                    "author": "Elena Rodriguez",
-                    "role": "Marketing Consultant",
-                    "rating": 4
-                },
-                {
-                    "quote": "Clean interface, easy to use, and completely free. What more could you ask for?",
-                    "author": "David Smith",
-                    "role": "Freelance Developer",
-                    "rating": 5
-                }
-            ]
-        },
-        "faq": {
-            "title": "Frequently Asked Questions",
-            "subtitle": "Find answers to common questions about Invoify",
-            "items": [
-                {
-                    "question": "Is Invoify really free to use?",
-                    "answer": "Yes, Invoify is completely free to use with no hidden fees or subscriptions. You can create unlimited invoices at no cost."
-                },
-                {
-                    "question": "Do I need to create an account to use Invoify?",
-                    "answer": "No, Invoify doesn't require registration. Your data is stored locally in your browser for privacy."
-                },
-                {
-                    "question": "What export formats are supported?",
-                    "answer": "Invoify supports exporting invoices as PDF, JSON, XLSX, CSV, and XML formats."
-                },
-                {
-                    "question": "Is my data secure when using Invoify?",
-                    "answer": "Yes, your data never leaves your computer. All invoice information is stored locally in your browser, ensuring complete privacy."
-                },
-                {
-                    "question": "Can I customize the invoice templates?",
-                    "answer": "Yes, Invoify offers multiple professional templates that you can customize with your logo, colors, and other details."
-                },
-                {
-                    "question": "Which languages does Invoify support?",
-                    "answer": "Invoify supports 14 languages including English, Spanish, French, German, Chinese, and more."
-                }
-            ]
-        }
+        "additionalNotes": "Additional Notes",
+        "paymentTerms": "Payment Terms",
+        "discount": "Discount",
+        "tax": "Tax",
+        "shipping": "Shipping",
+        "subTotal": "Subtotal",
+        "totalAmount": "Total Amount",
+        "includeTotalInWords": "Include Total in Words?",
+        "yes": "Yes",
+        "no": "No"
+      }
     }
+  },
+  "actions": {
+    "title": "Actions",
+    "description": "Operations and preview",
+    "loadInvoice": "Load Invoice",
+    "exportInvoice": "Export Invoice",
+    "newInvoice": "New Invoice",
+    "generatePdf": "Generate PDF",
+    "pdfView": "PDF View"
+  },
+  "footer": {
+    "developedBy": "Developed by"
+  },
+  "landing": {
+    "seo": {
+      "title": "Invoify — Free Online Invoice Generator | Create Professional Invoices Fast",
+      "description": "Create professional invoices for free with Invoify — a fast, no‑signup invoice maker for freelancers and small businesses. Choose professional templates with live preview and export invoices as PDF, JSON, XLSX, CSV, or XML. Create invoices in minutes, send via email, print online, and generate simple GST/VAT tax invoices with multi‑language support.",
+      "keywords": [
+        "free invoice generator online",
+        "create professional invoices in minutes",
+        "download invoice as PDF free",
+        "invoice template for freelancers",
+        "small business invoice maker",
+        "no signup invoice generator",
+        "multi-language invoice generator",
+        "export invoice JSON XLSX CSV XML",
+        "invoice app for web",
+        "best free invoice generator 2025",
+        "printable invoice template online",
+        "GST VAT tax invoice generator",
+        "simple invoice creator for contractors",
+        "send invoice via email free",
+        "professional invoice templates free"
+      ]
+    },
+
+    "hero": {
+      "title": "Create Professional Invoices in Minutes",
+      "subtitle": "Free, fast, and feature-rich invoice generator. No registration required.",
+      "cta": "Start Creating Invoices",
+      "tryDemo": "Try Demo"
+    },
+    "features": {
+      "title": "Why Choose Invoify?",
+      "subtitle": "Everything you need to create professional invoices",
+      "items": {
+        "free": {
+          "title": "Completely Free",
+          "description": "No hidden fees, no subscriptions. Create unlimited invoices at no cost."
+        },
+        "templates": {
+          "title": "Professional Templates",
+          "description": "Choose from multiple beautifully designed invoice templates."
+        },
+        "export": {
+          "title": "Multiple Export Formats",
+          "description": "Export as PDF, JSON, XLSX, CSV, or XML. Send directly via email."
+        },
+        "preview": {
+          "title": "Live Preview",
+          "description": "See your invoice update in real-time as you fill out the form."
+        },
+        "storage": {
+          "title": "Local Storage",
+          "description": "Save invoices in your browser for easy access and future editing."
+        },
+        "multilingual": {
+          "title": "Multi-language Support",
+          "description": "Create invoices in multiple languages with full internationalization."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple 4-step process to create your invoice",
+      "steps": {
+        "step1": {
+          "title": "Enter Details",
+          "description": "Fill in sender and receiver information"
+        },
+        "step2": {
+          "title": "Add Items",
+          "description": "Add line items with quantities and prices"
+        },
+        "step3": {
+          "title": "Customize",
+          "description": "Add payment info, taxes, and signature"
+        },
+        "step4": {
+          "title": "Export & Send",
+          "description": "Download PDF or send via email"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Create Your First Invoice?",
+      "subtitle": "Join thousands of users who trust Invoify for their invoicing needs",
+      "button": "Get Started Now"
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "subtitle": "Trusted by freelancers and businesses worldwide",
+      "items": [
+        {
+          "quote": "Invoify has simplified my invoicing process. I can create professional invoices in minutes!",
+          "author": "Sarah Johnson",
+          "role": "Freelance Designer",
+          "rating": 5
+        },
+        {
+          "quote": "The multiple export formats and local storage feature save me so much time. Highly recommended!",
+          "author": "Michael Chen",
+          "role": "Small Business Owner",
+          "rating": 5
+        },
+        {
+          "quote": "As someone who works with international clients, the multi-language support is a game-changer.",
+          "author": "Elena Rodriguez",
+          "role": "Marketing Consultant",
+          "rating": 4
+        },
+        {
+          "quote": "Clean interface, easy to use, and completely free. What more could you ask for?",
+          "author": "David Smith",
+          "role": "Freelance Developer",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about Invoify",
+      "items": [
+        {
+          "question": "Is Invoify really free to use?",
+          "answer": "Yes, Invoify is completely free to use with no hidden fees or subscriptions. You can create unlimited invoices at no cost."
+        },
+        {
+          "question": "Do I need to create an account to use Invoify?",
+          "answer": "No, Invoify doesn't require registration. Your data is stored locally in your browser for privacy."
+        },
+        {
+          "question": "What export formats are supported?",
+          "answer": "Invoify supports exporting invoices as PDF, JSON, XLSX, CSV, and XML formats."
+        },
+        {
+          "question": "Is my data secure when using Invoify?",
+          "answer": "Yes, your data never leaves your computer. All invoice information is stored locally in your browser, ensuring complete privacy."
+        },
+        {
+          "question": "Can I customize the invoice templates?",
+          "answer": "Yes, Invoify offers multiple professional templates that you can customize with your logo, colors, and other details."
+        },
+        {
+          "question": "Which languages does Invoify support?",
+          "answer": "Invoify supports 14 languages including English, Spanish, French, German, Chinese, and more."
+        }
+      ]
+    }
+  }
 }

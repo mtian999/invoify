@@ -90,6 +90,27 @@
     "developedBy": "Oluşturan"
   },
   "landing": {
+    "seo": {
+      "title": "Invoify — Ücretsiz çevrimiçi fatura oluşturucu | Profesyonel faturaları hızla oluşturun",
+      "description": "Invoify ile profesyonel faturaları ücretsiz oluşturun — serbest çalışanlar ve küçük işletmeler için kayıt gerektirmeyen hızlı bir fatura oluşturucu. Canlı önizlemeli profesyonel şablonları seçin ve faturaları PDF, JSON, XLSX, CSV veya XML olarak dışa aktarın. Dakikalar içinde faturalar oluşturun, e‑posta ile gönderin, çevrimiçi yazdırın ve çok dilli destekle basit vergi faturaları (KDV/GST/VAT) hazırlayın.",
+      "keywords": [
+        "ücretsiz çevrimiçi fatura oluşturucu",
+        "dakikalar içinde profesyonel fatura oluşturma",
+        "PDF fatura indir ücretsiz",
+        "serbest çalışanlar için fatura şablonu",
+        "küçük işletmeler için fatura oluşturucu",
+        "kayıt gerektirmeyen fatura oluşturucu",
+        "çok dilli fatura oluşturucu",
+        "fatura dışa aktarımı JSON XLSX CSV XML",
+        "web için faturalama uygulaması",
+        "2025’in en iyi ücretsiz fatura oluşturucusu",
+        "çevrimiçi yazdırılabilir fatura şablonu",
+        "vergi faturası oluşturucu KDV GST VAT",
+        "yükleniciler için basit fatura oluşturucu",
+        "faturayı e‑posta ile ücretsiz gönder",
+        "profesyonel ücretsiz fatura şablonları"
+      ]
+    },
     "hero": {
       "title": "Dakikalar içinde profesyonel faturalar oluşturun",
       "subtitle": "Hızlı, ücretsiz ve özellik açısından zengin fatura oluşturucu. Kayıt gerektirmez.",

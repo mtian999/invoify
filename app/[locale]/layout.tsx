@@ -32,28 +32,60 @@ import { JSONLD, ROOTKEYWORDS } from "@/lib/seo";
 import { BASE_URL, GOOGLE_SC_VERIFICATION, LOCALES } from "@/lib/variables";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-export const metadata: Metadata = {
-  title: "Invoify | Free Invoice Generator",
-  description:
-    "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!",
-  icons: [{ rel: "icon", url: Favicon.src }],
-  keywords: ROOTKEYWORDS,
-  viewport: "width=device-width, initial-scale=1",
-  robots: {
-    index: true,
-    follow: true,
-  },
-  alternates: {
-    canonical: "./",
-  },
-  authors: {
-    name: "Master Mao",
-    // url: "https://aliabb.vercel.app",
-  },
-  verification: {
-    google: GOOGLE_SC_VERIFICATION,
-  },
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  // Build per-locale canonical and hreflang maps
+  const languages: Record<string, string> = {};
+  for (const l of LOCALES) {
+    languages[l.code] = `/${l.code}/`;
+  }
+  // x-default points to root without locale
+  languages["x-default"] = "/";
+
+  return {
+    title: "Invoify | Free Invoice Generator",
+    description:
+      "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!",
+    icons: [{ rel: "icon", url: Favicon.src }],
+    keywords: ROOTKEYWORDS,
+    viewport: "width=device-width, initial-scale=1",
+    robots: {
+      index: true,
+      follow: true,
+    },
+
+    authors: {
+      name: "Master Mao",
+      // url: "https://aliabb.vercel.app",
+    },
+    verification: {
+      google: GOOGLE_SC_VERIFICATION,
+    },
+    metadataBase: new URL(BASE_URL),
+    openGraph: {
+      siteName: "Invoify",
+      type: "website",
+      url: `${BASE_URL}/${locale}/`,
+      locale,
+      title: "Invoify | Free Invoice Generator",
+      description:
+        "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Invoify | Free Invoice Generator",
+      description:
+        "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!",
+    },
+    alternates: {
+      canonical: `/${locale}/`,
+      languages,
+    },
+  };
+}
 
 export function generateStaticParams() {
   const locales = LOCALES.map((locale) => locale.code);

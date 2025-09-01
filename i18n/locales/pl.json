@@ -90,6 +90,27 @@
         "developedBy": "Opracowane przez"
     },
     "landing": {
+        "seo": {
+            "title": "Invoify — Darmowy generator faktur online | Szybko twórz profesjonalne faktury",
+            "description": "Twórz profesjonalne faktury za darmo dzięki Invoify — szybki generator faktur bez rejestracji dla freelancerów i małych firm. Wybieraj profesjonalne szablony z podglądem na żywo i eksportuj faktury do PDF, JSON, XLSX, CSV lub XML. Utwórz fakturę w kilka minut, wyślij e‑mailem, drukuj online i generuj proste faktury podatkowe (VAT/GST) z obsługą wielu języków.",
+            "keywords": [
+                "darmowy generator faktur online",
+                "twórz profesjonalne faktury w kilka minut",
+                "pobierz fakturę PDF za darmo",
+                "szablon faktury dla freelancerów",
+                "generator faktur dla małych firm",
+                "generator faktur bez rejestracji",
+                "wielojęzyczny generator faktur",
+                "eksport faktury JSON XLSX CSV XML",
+                "aplikacja do fakturowania online",
+                "najlepszy darmowy generator faktur 2025",
+                "szablon faktury do druku online",
+                "generator faktur podatkowych VAT GST",
+                "prosty kreator faktur dla wykonawców",
+                "wyślij fakturę e‑mailem za darmo",
+                "profesjonalne darmowe szablony faktur"
+            ]
+        },
         "hero": {
             "title": "Twórz profesjonalne faktury w kilka minut",
             "subtitle": "Darmowy, szybki i bogaty w funkcje generator faktur. Rejestracja nie jest wymagana.",

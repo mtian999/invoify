@@ -90,6 +90,27 @@
         "developedBy": "Développé par"
     },
     "landing": {
+        "seo": {
+            "title": "Invoify — Générateur de factures en ligne gratuit | Créez des factures professionnelles rapidement",
+            "description": "Créez des factures professionnelles gratuitement avec Invoify — un générateur de factures rapide et sans inscription pour les freelances et les petites entreprises. Choisissez des modèles professionnels avec aperçu en direct et exportez les factures en PDF, JSON, XLSX, CSV ou XML. Créez des factures en quelques minutes, envoyez-les par e-mail, imprimez en ligne et générez des factures fiscales simples GST/VAT avec prise en charge multilingue.",
+            "keywords": [
+                "générateur de factures gratuit en ligne",
+                "créer des factures professionnelles en quelques minutes",
+                "télécharger la facture en PDF gratuitement",
+                "modèle de facture pour freelances",
+                "générateur de factures pour petites entreprises",
+                "générateur de factures sans inscription",
+                "générateur de factures multilingue",
+                "exporter facture JSON XLSX CSV XML",
+                "application de facturation pour le web",
+                "meilleur générateur de factures gratuit 2025",
+                "modèle de facture imprimable en ligne",
+                "générateur de facture fiscale GST VAT",
+                "créateur de facture simple pour entrepreneurs",
+                "envoyer la facture par e-mail gratuitement",
+                "modèles de facture professionnels gratuits"
+            ]
+        },
         "hero": {
             "title": "Créez des factures professionnelles en quelques minutes",
             "subtitle": "Générateur de factures gratuit, rapide et riche en fonctionnalités. Aucune inscription requise.",
