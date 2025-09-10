@@ -1,247 +1,256 @@
 {
-    "form": {
-        "title": "Rechnung",
-        "description": "Rechnung erstellen",
-        "newInvBadge": "Neue Rechnung",
-        "wizard": {
-            "fromAndTo": "Von & An",
-            "invoiceDetails": "Rechnungsdetails",
-            "lineItems": "Positionen",
-            "paymentInfo": "Zahlung",
-            "summary": "Zusammenfassung",
-            "next": "Weiter",
-            "back": "Zurück"
-        },
-        "steps": {
-            "fromAndTo": {
-                "billFrom": "Absender",
-                "billTo": "Empfänger",
-                "name": "Name",
-                "address": "Adresse",
-                "zipCode": "PLZ",
-                "city": "Stadt",
-                "country": "Land",
-                "email": "E-Mail",
-                "phone": "Telefon",
-                "addCustomInput": "Benutzerfeld hinzufügen",
-                "sender": "Sender",
-                "receiver": "Empfänger"
-            },
-            "invoiceDetails": {
-                "heading": "Rechnungsdetails",
-                "invoiceLogo": {
-                    "label": "Rechnungslogo",
-                    "placeholder": "Bild hochladen"
-                },
-                "invoiceNumber": "Rechnungsnummer",
-                "issuedDate": "Ausstellungsdatum",
-                "dueDate": "Fälligkeitsdatum",
-                "currency": "Währung"
-            },
-            "lineItems": {
-                "heading": "Positionen",
-                "item": "Artikel",
-                "name": "Name",
-                "quantity": "Menge",
-                "rate": "Preis",
-                "total": "Gesamt",
-                "description": "Beschreibung",
-                "addNewItem": "Neue Position",
-                "removeItem": "Entfernen"
-            },
-            "paymentInfo": {
-                "heading": "Zahlungsinformationen",
-                "bankName": "Bank",
-                "accountName": "Kontoinhaber",
-                "accountNumber": "Kontonummer"
-            },
-            "summary": {
-                "heading": "Zusammenfassung",
-                "signature": {
-                    "heading": "Unterschrift",
-                    "placeholder": "Unterschrift hinzufügen",
-                    "draw": "Zeichnen",
-                    "type": "Typ",
-                    "upload": "Hochladen"
-                },
-                "additionalNotes": "Notizen",
-                "paymentTerms": "Zahlungsbedingungen",
-                "discount": "Rabatt",
-                "tax": "Steuer",
-                "shipping": "Versand",
-                "subTotal": "Zwischensumme",
-                "totalAmount": "Gesamtbetrag",
-                "includeTotalInWords": "In Worten",
-                "yes": "Ja",
-                "no": "Nein"
-            }
-        }
+  "form": {
+    "title": "Rechnung",
+    "description": "Rechnung erstellen",
+    "newInvBadge": "Neue Rechnung",
+    "wizard": {
+      "fromAndTo": "Von & An",
+      "invoiceDetails": "Rechnungsdetails",
+      "lineItems": "Positionen",
+      "paymentInfo": "Zahlung",
+      "summary": "Zusammenfassung",
+      "next": "Weiter",
+      "back": "Zurück"
     },
-    "actions": {
-        "title": "Aktionen",
-        "description": "Operationen und Vorschau",
-        "loadInvoice": "Rechnung laden",
-        "exportInvoice": "Rechnung exportieren",
-        "newInvoice": "Neue Rechnung",
-        "generatePdf": "PDF generieren",
-        "pdfView": "PDF-Ansicht"
-    },
-    "footer": {
-        "developedBy": "Entwickelt von"
-    },
-    "landing": {
-        "seo": {
-            "title": "Invoify — Kostenloser Online-Rechnungsgenerator | Professionelle Rechnungen schnell erstellen",
-            "description": "Erstellen Sie professionelle Rechnungen kostenlos mit Invoify — einem schnellen Rechnungstool ohne Registrierung für Freiberufler und kleine Unternehmen. Wählen Sie professionelle Vorlagen mit Live-Vorschau und exportieren Sie Rechnungen als PDF, JSON, XLSX, CSV oder XML. Erstellen Sie Rechnungen in Minuten, versenden Sie sie per E-Mail, drucken Sie online und erzeugen Sie einfache GST/VAT-Steuerrechnungen mit Mehrsprachenunterstützung.",
-            "keywords": [
-                "kostenloser Rechnungsgenerator online",
-                "professionelle Rechnungen in Minuten erstellen",
-                "Rechnung als PDF kostenlos herunterladen",
-                "Rechnungsvorlage für Freelancer",
-                "Rechnungstool für kleine Unternehmen",
-                "Rechnungsgenerator ohne Registrierung",
-                "mehrsprachiger Rechnungsgenerator",
-                "Rechnung exportieren JSON XLSX CSV XML",
-                "Rechnungs-App fürs Web",
-                "bester kostenloser Rechnungsgenerator 2025",
-                "online druckbare Rechnungsvorlage",
-                "GST VAT Steuerrechnungsgenerator",
-                "einfacher Rechnungsersteller für Auftragnehmer",
-                "Rechnung per E-Mail kostenlos senden",
-                "kostenlose professionelle Rechnungsvorlagen"
-            ]
+    "steps": {
+      "fromAndTo": {
+        "billFrom": "Absender",
+        "billTo": "Empfänger",
+        "name": "Name",
+        "address": "Adresse",
+        "zipCode": "PLZ",
+        "city": "Stadt",
+        "country": "Land",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "addCustomInput": "Benutzerfeld hinzufügen",
+        "sender": "Sender",
+        "receiver": "Empfänger"
+      },
+      "invoiceDetails": {
+        "heading": "Rechnungsdetails",
+        "invoiceLogo": {
+          "label": "Rechnungslogo",
+          "placeholder": "Bild hochladen"
         },
-        "hero": {
-            "title": "Erstellen Sie professionelle Rechnungen in Minuten",
-            "subtitle": "Kostenloser, schneller und funktionsreicher Rechnungsgenerator. Keine Registrierung erforderlich.",
-            "cta": "Rechnungen erstellen",
-            "tryDemo": "Demo ausprobieren"
+        "invoiceNumber": "Rechnungsnummer",
+        "issuedDate": "Ausstellungsdatum",
+        "dueDate": "Fälligkeitsdatum",
+        "currency": "Währung"
+      },
+      "lineItems": {
+        "heading": "Positionen",
+        "item": "Artikel",
+        "name": "Name",
+        "quantity": "Menge",
+        "rate": "Preis",
+        "total": "Gesamt",
+        "description": "Beschreibung",
+        "addNewItem": "Neue Position",
+        "removeItem": "Entfernen"
+      },
+      "paymentInfo": {
+        "heading": "Zahlungsinformationen",
+        "bankName": "Bank",
+        "accountName": "Kontoinhaber",
+        "accountNumber": "Kontonummer"
+      },
+      "summary": {
+        "heading": "Zusammenfassung",
+        "signature": {
+          "heading": "Unterschrift",
+          "placeholder": "Unterschrift hinzufügen",
+          "draw": "Zeichnen",
+          "type": "Typ",
+          "upload": "Hochladen"
         },
-        "features": {
-            "title": "Warum Invoify wählen?",
-            "subtitle": "Alles, was Sie für die Erstellung professioneller Rechnungen benötigen",
-            "items": {
-                "free": {
-                    "title": "Völlig kostenlos",
-                    "description": "Keine versteckten Gebühren, keine Abonnements. Erstellen Sie unbegrenzt Rechnungen ohne Kosten."
-                },
-                "templates": {
-                    "title": "Professionelle Vorlagen",
-                    "description": "Wählen Sie aus mehreren schön gestalteten Rechnungsvorlagen."
-                },
-                "export": {
-                    "title": "Mehrere Exportformate",
-                    "description": "Exportieren als PDF, JSON, XLSX, CSV oder XML. Direkt per E-Mail versenden."
-                },
-                "preview": {
-                    "title": "Live-Vorschau",
-                    "description": "Sehen Sie, wie sich Ihre Rechnung in Echtzeit aktualisiert, während Sie das Formular ausfüllen."
-                },
-                "storage": {
-                    "title": "Lokale Speicherung",
-                    "description": "Speichern Sie Rechnungen in Ihrem Browser für einfachen Zugriff und spätere Bearbeitung."
-                },
-                "multilingual": {
-                    "title": "Mehrsprachige Unterstützung",
-                    "description": "Erstellen Sie Rechnungen in mehreren Sprachen mit vollständiger Internationalisierung."
-                }
-            }
-        },
-        "howItWorks": {
-            "title": "Wie es funktioniert",
-            "subtitle": "Einfacher 4-Schritte-Prozess zur Erstellung Ihrer Rechnung",
-            "steps": {
-                "step1": {
-                    "title": "Details eingeben",
-                    "description": "Füllen Sie Absender- und Empfängerinformationen aus"
-                },
-                "step2": {
-                    "title": "Artikel hinzufügen",
-                    "description": "Fügen Sie Positionen mit Mengen und Preisen hinzu"
-                },
-                "step3": {
-                    "title": "Anpassen",
-                    "description": "Fügen Sie Zahlungsinformationen, Steuern und Unterschrift hinzu"
-                },
-                "step4": {
-                    "title": "Exportieren & Senden",
-                    "description": "PDF herunterladen oder per E-Mail versenden"
-                }
-            }
-        },
-        "cta": {
-            "title": "Bereit, Ihre erste Rechnung zu erstellen?",
-            "subtitle": "Schließen Sie sich Tausenden von Nutzern an, die Invoify für ihre Rechnungsstellung vertrauen",
-            "button": "Jetzt starten"
-        },
-        "testimonials": {
-            "title": "Was unsere Nutzer sagen",
-            "subtitle": "Vertraut von Freiberuflern und Unternehmen weltweit",
-            "items": [
-                {
-                    "quote": "Invoify hat meinen Rechnungsprozess vereinfacht. Ich kann professionelle Rechnungen in Minuten erstellen!",
-                    "author": "Sabine Müller",
-                    "role": "Freiberufliche Designerin",
-                    "rating": 5
-                },
-                {
-                    "quote": "Die verschiedenen Exportformate und die lokale Speicherfunktion sparen mir so viel Zeit. Sehr empfehlenswert!",
-                    "author": "Thomas Weber",
-                    "role": "Kleinunternehmer",
-                    "rating": 5
-                },
-                {
-                    "quote": "Als jemand, der mit internationalen Kunden arbeitet, ist die mehrsprachige Unterstützung ein echter Gamechanger.",
-                    "author": "Lena Schmidt",
-                    "role": "Marketing-Beraterin",
-                    "rating": 4
-                },
-                {
-                    "quote": "Übersichtliche Oberfläche, einfach zu bedienen und völlig kostenlos. Was will man mehr?",
-                    "author": "Markus Becker",
-                    "role": "Freiberuflicher Entwickler",
-                    "rating": 5
-                }
-            ]
-        },
-        "faq": {
-            "title": "Häufig gestellte Fragen",
-            "subtitle": "Finden Sie Antworten auf häufige Fragen zu Invoify",
-            "items": [
-                {
-                    "question": "Ist Invoify wirklich kostenlos?",
-                    "answer": "Ja, Invoify ist vollständig kostenlos ohne versteckte Gebühren oder Abonnements. Sie können unbegrenzt Rechnungen erstellen, ohne dafür zu bezahlen."
-                },
-                {
-                    "question": "Muss ich ein Konto erstellen, um Invoify zu nutzen?",
-                    "answer": "Nein, für Invoify ist keine Registrierung erforderlich. Ihre Daten werden aus Datenschutzgründen lokal in Ihrem Browser gespeichert."
-                },
-                {
-                    "question": "Welche Exportformate werden unterstützt?",
-                    "answer": "Invoify unterstützt den Export von Rechnungen als PDF, JSON, XLSX, CSV und XML."
-                },
-                {
-                    "question": "Sind meine Daten bei der Nutzung von Invoify sicher?",
-                    "answer": "Ja, Ihre Daten verlassen niemals Ihren Computer. Alle Rechnungsinformationen werden lokal in Ihrem Browser gespeichert und gewährleisten so vollständige Privatsphäre."
-                },
-                {
-                    "question": "Kann ich die Rechnungsvorlagen anpassen?",
-                    "answer": "Ja, Invoify bietet mehrere professionelle Vorlagen, die Sie mit Ihrem Logo, Farben und anderen Details anpassen können."
-                },
-                {
-                    "question": "Welche Sprachen unterstützt Invoify?",
-                    "answer": "Invoify unterstützt 14 Sprachen, darunter Deutsch, Englisch, Spanisch, Französisch, Chinesisch und viele mehr."
-                }
-            ]
-        }
-    },
-    "print": {
-        "title": "Druckvorschau",
-        "saveAsPdf": "Als PDF speichern",
-        "print": "Drucken",
-        "empty": {
-            "message": "Keine Rechnungsdaten zum Drucken gefunden. Bitte kehren Sie zum Editor zurück, um eine Rechnung zu erstellen oder zu speichern, und versuchen Sie es erneut.",
-            "backToEditor": "Zurück zum Editor"
-        }
+        "additionalNotes": "Notizen",
+        "paymentTerms": "Zahlungsbedingungen",
+        "discount": "Rabatt",
+        "tax": "Steuer",
+        "shipping": "Versand",
+        "subTotal": "Zwischensumme",
+        "totalAmount": "Gesamtbetrag",
+        "includeTotalInWords": "In Worten",
+        "yes": "Ja",
+        "no": "Nein"
+      }
     }
+  },
+  "actions": {
+    "title": "Aktionen",
+    "description": "Operationen und Vorschau",
+    "loadInvoice": "Rechnung laden",
+    "exportInvoice": "Rechnung exportieren",
+    "newInvoice": "Neue Rechnung",
+    "generatePdf": "PDF generieren",
+    "pdfView": "PDF-Ansicht"
+  },
+  "footer": {
+    "developedBy": "Entwickelt von"
+  },
+  "landing": {
+    "seo": {
+      "title": "Kostenloser Rechnungsgenerator - Online Rechnungen als PDF erstellen | Invoify",
+      "description": "Erstellen Sie professionelle Rechnungen in Sekunden mit dem kostenlosen Rechnungsgenerator von Invoify. Ohne Anmeldung. Vorlage wählen, Logo hinzufügen und sofort als PDF herunterladen. Perfekt für Freelancer & Kleinunternehmer.",
+      "keywords": [
+        "kostenloser rechnungsgenerator",
+        "rechnung online erstellen",
+        "rechnungsprogramm kostenlos",
+        "rechnungsvorlagen",
+        "rechnung schreiben",
+        "rechnung erstellen pdf",
+        "rechnungsgenerator ohne anmeldung",
+        "rechnungsprogramm für freelancer",
+        "rechnungsprogramm für kleinunternehmer",
+        "professionelle rechnungsvorlagen",
+        "einfache rechnungsvorlage",
+        "rechnung mit umsatzsteuer",
+        "vorlage kleinunternehmerrechnung § 19 ustg",
+        "proforma rechnung vorlage",
+        "stundenabrechnung vorlage",
+        "dienstleistungsrechnung vorlage",
+        "beraterrechnung vorlage",
+        "rechnungsvorlage word",
+        "rechnungsvorlage excel",
+        "rechnungsvorlage google docs",
+        "online rechnung erstellen mit logo",
+        "anpassbare rechnungsvorlage",
+        "rechnung per e-mail senden",
+        "bestes kostenloses rechnungsprogramm 2025"
+      ]
+    },
+    "hero": {
+      "title": "Ihr Kostenloser Online-Rechnungsgenerator",
+      "subtitle": "Erstellen, anpassen und laden Sie professionelle Rechnungen in Sekunden herunter. Absolut kostenlos, keine Anmeldung erforderlich.",
+      "cta": "Jetzt Kostenlose Rechnung Erstellen",
+      "tryDemo": "So Funktioniert's"
+    },
+    "features": {
+      "title": "Die Besten Funktionen, Alle Kostenlos",
+      "subtitle": "Alles, was Sie brauchen, um die perfekte Rechnung für Ihr Unternehmen zu erstellen",
+      "items": {
+        "free": {
+          "title": "100% Dauerhaft Kostenlos",
+          "description": "Keine versteckten Gebühren, keine Abonnements, keine Limits. Erstellen und laden Sie unbegrenzt Rechnungen herunter, völlig kostenlos."
+        },
+        "templates": {
+          "title": "Anpassbare Vorlagen",
+          "description": "Wählen Sie aus einer Vielzahl professioneller Vorlagen. Fügen Sie Ihr Logo hinzu, wählen Sie Farben und gestalten Sie sie nach Ihren Wünschen."
+        },
+        "export": {
+          "title": "Sofortiger PDF-Download & Mehr",
+          "description": "Laden Sie Ihre Rechnung sofort als PDF herunter. Wir unterstützen auch die Formate JSON, XLSX, CSV und XML."
+        },
+        "preview": {
+          "title": "Rechnungsvorschau in Echtzeit",
+          "description": "Sehen Sie, wie Ihre Rechnung beim Tippen entsteht. Keine Überraschungen mehr, was Sie sehen, ist was Sie bekommen."
+        },
+        "storage": {
+          "title": "Privater & Sicherer Lokaler Speicher",
+          "description": "Ihre Daten werden sicher in Ihrem Browser gespeichert, nicht auf unseren Servern. Sie besitzen Ihre Daten."
+        },
+        "multilingual": {
+          "title": "Mehrsprachige Rechnungsstellung",
+          "description": "Erstellen Sie Rechnungen in über 14 Sprachen, um Ihre internationalen Kunden mühelos zu bedienen."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "In 4 Einfachen Schritten zur Rechnung",
+      "subtitle": "Von Null zur professionellen Rechnung in weniger als einer Minute",
+      "steps": {
+        "step1": {
+          "title": "Vorlage Wählen",
+          "description": "Wählen Sie ein professionelles Design, das zu Ihrer Marke passt."
+        },
+        "step2": {
+          "title": "Daten Eintragen",
+          "description": "Fügen Sie Ihre Daten, Kundeninformationen und die Postenliste hinzu."
+        },
+        "step3": {
+          "title": "Rechnung Anpassen",
+          "description": "Fügen Sie ein Logo, Steuern, Rabatte, Zahlungsbedingungen und mehr hinzu."
+        },
+        "step4": {
+          "title": "Herunterladen oder Senden",
+          "description": "Laden Sie sofort ein PDF herunter oder senden Sie es direkt an Ihren Kunden."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Bezahlt zu Werden?",
+      "subtitle": "Verschwenden Sie keine Zeit mehr mit komplizierter Software. Erstellen Sie jetzt Ihre professionelle Rechnung.",
+      "button": "Kostenlos Starten"
+    },
+    "testimonials": {
+      "title": "Was Unsere Nutzer Sagen",
+      "subtitle": "Tausende von Freelancern und Kleinunternehmern weltweit vertrauen uns",
+      "items": [
+        {
+          "quote": "Der beste kostenlose Rechnungsgenerator, den ich gefunden habe. So einfach und schnell, und ich liebe es, dass keine Anmeldung erforderlich ist!",
+          "author": "Sarah J.",
+          "role": "Freelance-Designerin",
+          "rating": 5
+        },
+        {
+          "quote": "Eine PDF-Rechnungsvorlage so einfach herunterladen zu können, war ein Lebensretter für mein Kleinunternehmen.",
+          "author": "Michael C.",
+          "role": "Inhaber eines Kleinunternehmens",
+          "rating": 5
+        },
+        {
+          "quote": "Als Beraterin sind die Mehrsprachigkeit und die professionellen Vorlagen für meine internationalen Kunden spielentscheidend.",
+          "author": "Elena R.",
+          "role": "Marketingberaterin",
+          "rating": 5
+        },
+        {
+          "quote": "Saubere Oberfläche, einfach zu bedienen und komplett kostenlos. Was will man mehr?",
+          "author": "David S.",
+          "role": "Freelance-Entwickler",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig Gestellte Fragen",
+      "subtitle": "Finden Sie Antworten auf häufige Fragen zu unserem kostenlosen Rechnungsprogramm",
+      "items": [
+        {
+          "question": "Ist dieser Online-Rechnungsgenerator wirklich 100% kostenlos?",
+          "answer": "Ja, Invoify ist komplett kostenlos. Es gibt keine versteckten Gebühren, Abonnements oder Beschränkungen für die Anzahl der Rechnungen, die Sie erstellen können."
+        },
+        {
+          "question": "Muss ich mich anmelden, um eine Rechnung zu erstellen?",
+          "answer": "Nein, Sie müssen kein Konto erstellen. Sie können sofort mit der Erstellung Ihrer Rechnung beginnen. Ihre Daten werden aus Datenschutz- und Komfortgründen lokal in Ihrem Browser gespeichert."
+        },
+        {
+          "question": "Was muss auf einer Rechnung für Kleinunternehmer stehen?",
+          "answer": "Eine Kleinunternehmerrechnung muss alle Pflichtangaben einer normalen Rechnung enthalten, darf aber keine Umsatzsteuer ausweisen. Wichtig ist ein Hinweis auf die Anwendung der Kleinunternehmerregelung, z.B. 'Gemäß § 19 UStG wird keine Umsatzsteuer berechnet'."
+        },
+        {
+          "question": "Kann ich mein Firmenlogo zu den Rechnungsvorlagen hinzufügen?",
+          "answer": "Absolut. Sie können Ihr Logo einfach hochladen, und es wird auf jeder von Ihnen gewählten professionellen Rechnungsvorlage angezeigt."
+        },
+        {
+          "question": "In welchen Formaten kann ich meine Rechnung herunterladen?",
+          "answer": "Sie können Ihre Rechnung sofort als hochwertiges PDF herunterladen. Wir unterstützen auch den Export nach JSON, XLSX (Excel), CSV und XML für Ihre Buchhaltungsanforderungen."
+        },
+        {
+          "question": "Sind meine Daten sicher?",
+          "answer": "Ja, Ihre Daten sind absolut sicher. Alle Informationen werden lokal in Ihrem Browser gespeichert und niemals an unsere Server gesendet, um sicherzustellen, dass Ihre Geschäfts- und Kundendaten privat bleiben."
+        }
+      ]
+    }
+  },
+  "print": {
+    "title": "Druckvorschau",
+    "saveAsPdf": "Als PDF speichern",
+    "print": "Drucken",
+    "empty": {
+      "message": "Keine Rechnungsdaten zum Drucken gefunden. Bitte kehren Sie zum Editor zurück, um eine Rechnung zu erstellen oder zu speichern, und versuchen Sie es erneut.",
+      "backToEditor": "Zurück zum Editor"
+    }
+  }
 }

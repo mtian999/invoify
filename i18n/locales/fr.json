@@ -1,247 +1,256 @@
 {
-    "form": {
-        "title": "Facture",
-        "description": "Générer une facture",
-        "newInvBadge": "Nouvelle facture",
-        "wizard": {
-            "fromAndTo": "De & À",
-            "invoiceDetails": "Détails de la facture",
-            "lineItems": "Articles",
-            "paymentInfo": "Informations de paiement",
-            "summary": "Résumé",
-            "next": "Suivant",
-            "back": "Retour"
-        },
-        "steps": {
-            "fromAndTo": {
-                "billFrom": "Facturé de",
-                "billTo": "Facturé à",
-                "name": "Nom/Prénom:",
-                "address": "Adresse",
-                "zipCode": "Code postal",
-                "city": "Ville",
-                "country": "Pays",
-                "email": "Email",
-                "phone": "Téléphone",
-                "addCustomInput": "Ajouter une entrée personnalisée",
-                "sender": "Expéditeur",
-                "receiver": "Destinataire"
-            },
-            "invoiceDetails": {
-                "heading": "Détails de la facture",
-                "invoiceLogo": {
-                    "label": "Logo de la facture",
-                    "placeholder": "Cliquez pour télécharger une image"
-                },
-                "invoiceNumber": "Numéro de facture",
-                "issuedDate": "Date d'émission",
-                "dueDate": "Date d'échéance",
-                "currency": "Devise"
-            },
-            "lineItems": {
-                "heading": "Articles",
-                "item": "Article",
-                "name": "Nom",
-                "quantity": "Quantité",
-                "rate": "Taux",
-                "total": "Total",
-                "description": "Description",
-                "addNewItem": "Ajouter un nouvel article",
-                "removeItem": "Supprimer l'article"
-            },
-            "paymentInfo": {
-                "heading": "Informations de paiement",
-                "bankName": "Nom de la banque",
-                "accountName": "Nom du compte",
-                "accountNumber": "Numéro de compte"
-            },
-            "summary": {
-                "heading": "Résumé",
-                "signature": {
-                    "heading": "Signature",
-                    "placeholder": "Cliquez pour ajouter une signature",
-                    "draw": "Dessiner",
-                    "type": "Taper",
-                    "upload": "Télécharger"
-                },
-                "additionalNotes": "Notes supplémentaires",
-                "paymentTerms": "Conditions de paiement",
-                "discount": "Remise",
-                "tax": "Taxe",
-                "shipping": "Expédition",
-                "subTotal": "Sous-total",
-                "totalAmount": "Montant total",
-                "includeTotalInWords": "Inclure le total en mots?",
-                "yes": "Oui",
-                "no": "Non"
-            }
-        }
+  "form": {
+    "title": "Facture",
+    "description": "Générer une facture",
+    "newInvBadge": "Nouvelle facture",
+    "wizard": {
+      "fromAndTo": "De & À",
+      "invoiceDetails": "Détails de la facture",
+      "lineItems": "Articles",
+      "paymentInfo": "Informations de paiement",
+      "summary": "Résumé",
+      "next": "Suivant",
+      "back": "Retour"
     },
-    "actions": {
-        "title": "Actions",
-        "description": "Opérations et aperçu",
-        "loadInvoice": "Charger la facture",
-        "exportInvoice": "Exporter la facture",
-        "newInvoice": "Nouvelle facture",
-        "generatePdf": "Générer un PDF",
-        "pdfView": "Vue PDF"
-    },
-    "footer": {
-        "developedBy": "Développé par"
-    },
-    "landing": {
-        "seo": {
-            "title": "Invoify — Générateur de factures en ligne gratuit | Créez des factures professionnelles rapidement",
-            "description": "Créez des factures professionnelles gratuitement avec Invoify — un générateur de factures rapide et sans inscription pour les freelances et les petites entreprises. Choisissez des modèles professionnels avec aperçu en direct et exportez les factures en PDF, JSON, XLSX, CSV ou XML. Créez des factures en quelques minutes, envoyez-les par e-mail, imprimez en ligne et générez des factures fiscales simples GST/VAT avec prise en charge multilingue.",
-            "keywords": [
-                "générateur de factures gratuit en ligne",
-                "créer des factures professionnelles en quelques minutes",
-                "télécharger la facture en PDF gratuitement",
-                "modèle de facture pour freelances",
-                "générateur de factures pour petites entreprises",
-                "générateur de factures sans inscription",
-                "générateur de factures multilingue",
-                "exporter facture JSON XLSX CSV XML",
-                "application de facturation pour le web",
-                "meilleur générateur de factures gratuit 2025",
-                "modèle de facture imprimable en ligne",
-                "générateur de facture fiscale GST VAT",
-                "créateur de facture simple pour entrepreneurs",
-                "envoyer la facture par e-mail gratuitement",
-                "modèles de facture professionnels gratuits"
-            ]
+    "steps": {
+      "fromAndTo": {
+        "billFrom": "Facturé de",
+        "billTo": "Facturé à",
+        "name": "Nom/Prénom:",
+        "address": "Adresse",
+        "zipCode": "Code postal",
+        "city": "Ville",
+        "country": "Pays",
+        "email": "Email",
+        "phone": "Téléphone",
+        "addCustomInput": "Ajouter une entrée personnalisée",
+        "sender": "Expéditeur",
+        "receiver": "Destinataire"
+      },
+      "invoiceDetails": {
+        "heading": "Détails de la facture",
+        "invoiceLogo": {
+          "label": "Logo de la facture",
+          "placeholder": "Cliquez pour télécharger une image"
         },
-        "hero": {
-            "title": "Créez des factures professionnelles en quelques minutes",
-            "subtitle": "Générateur de factures gratuit, rapide et riche en fonctionnalités. Aucune inscription requise.",
-            "cta": "Commencer à créer des factures",
-            "tryDemo": "Essayer la démo"
+        "invoiceNumber": "Numéro de facture",
+        "issuedDate": "Date d'émission",
+        "dueDate": "Date d'échéance",
+        "currency": "Devise"
+      },
+      "lineItems": {
+        "heading": "Articles",
+        "item": "Article",
+        "name": "Nom",
+        "quantity": "Quantité",
+        "rate": "Taux",
+        "total": "Total",
+        "description": "Description",
+        "addNewItem": "Ajouter un nouvel article",
+        "removeItem": "Supprimer l'article"
+      },
+      "paymentInfo": {
+        "heading": "Informations de paiement",
+        "bankName": "Nom de la banque",
+        "accountName": "Nom du compte",
+        "accountNumber": "Numéro de compte"
+      },
+      "summary": {
+        "heading": "Résumé",
+        "signature": {
+          "heading": "Signature",
+          "placeholder": "Cliquez pour ajouter une signature",
+          "draw": "Dessiner",
+          "type": "Taper",
+          "upload": "Télécharger"
         },
-        "features": {
-            "title": "Pourquoi choisir Invoify ?",
-            "subtitle": "Tout ce dont vous avez besoin pour créer des factures professionnelles",
-            "items": {
-                "free": {
-                    "title": "Entièrement gratuit",
-                    "description": "Pas de frais cachés, pas d'abonnements. Créez des factures illimitées sans aucun coût."
-                },
-                "templates": {
-                    "title": "Modèles professionnels",
-                    "description": "Choisissez parmi plusieurs modèles de factures magnifiquement conçus."
-                },
-                "export": {
-                    "title": "Multiples formats d'exportation",
-                    "description": "Exportez en PDF, JSON, XLSX, CSV ou XML. Envoyez directement par e-mail."
-                },
-                "preview": {
-                    "title": "Aperçu en temps réel",
-                    "description": "Voyez votre facture se mettre à jour en temps réel pendant que vous remplissez le formulaire."
-                },
-                "storage": {
-                    "title": "Stockage local",
-                    "description": "Enregistrez les factures dans votre navigateur pour un accès facile et des modifications ultérieures."
-                },
-                "multilingual": {
-                    "title": "Support multilingue",
-                    "description": "Créez des factures en plusieurs langues avec une internationalisation complète."
-                }
-            }
-        },
-        "howItWorks": {
-            "title": "Comment ça fonctionne",
-            "subtitle": "Processus simple en 4 étapes pour créer votre facture",
-            "steps": {
-                "step1": {
-                    "title": "Saisissez les détails",
-                    "description": "Remplissez les informations de l'expéditeur et du destinataire"
-                },
-                "step2": {
-                    "title": "Ajoutez des articles",
-                    "description": "Ajoutez des lignes d'articles avec quantités et prix"
-                },
-                "step3": {
-                    "title": "Personnalisez",
-                    "description": "Ajoutez les informations de paiement, taxes et signature"
-                },
-                "step4": {
-                    "title": "Exportez et envoyez",
-                    "description": "Téléchargez en PDF ou envoyez par e-mail"
-                }
-            }
-        },
-        "cta": {
-            "title": "Prêt à créer votre première facture ?",
-            "subtitle": "Rejoignez des milliers d'utilisateurs qui font confiance à Invoify pour leurs besoins de facturation",
-            "button": "Commencer maintenant"
-        },
-        "testimonials": {
-            "title": "Ce que disent nos utilisateurs",
-            "subtitle": "Approuvé par des freelances et des entreprises du monde entier",
-            "items": [
-                {
-                    "quote": "Invoify a simplifié mon processus de facturation. Je peux créer des factures professionnelles en quelques minutes !",
-                    "author": "Sophie Dubois",
-                    "role": "Designer freelance",
-                    "rating": 5
-                },
-                {
-                    "quote": "Les multiples formats d'exportation et la fonction de stockage local me font gagner énormément de temps. Fortement recommandé !",
-                    "author": "Pierre Martin",
-                    "role": "Propriétaire de petite entreprise",
-                    "rating": 5
-                },
-                {
-                    "quote": "En tant que personne travaillant avec des clients internationaux, le support multilingue est un véritable atout.",
-                    "author": "Amélie Leclerc",
-                    "role": "Consultante en marketing",
-                    "rating": 4
-                },
-                {
-                    "quote": "Interface épurée, facile à utiliser et complètement gratuit. Que demander de plus ?",
-                    "author": "Nicolas Petit",
-                    "role": "Développeur freelance",
-                    "rating": 5
-                }
-            ]
-        },
-        "faq": {
-            "title": "Questions fréquemment posées",
-            "subtitle": "Trouvez des réponses aux questions courantes sur Invoify",
-            "items": [
-                {
-                    "question": "Invoify est-il vraiment gratuit ?",
-                    "answer": "Oui, Invoify est entièrement gratuit sans frais cachés ni abonnements. Vous pouvez créer un nombre illimité de factures sans aucun coût."
-                },
-                {
-                    "question": "Dois-je créer un compte pour utiliser Invoify ?",
-                    "answer": "Non, Invoify ne nécessite pas d'inscription. Vos données sont stockées localement dans votre navigateur pour plus de confidentialité."
-                },
-                {
-                    "question": "Quels formats d'exportation sont pris en charge ?",
-                    "answer": "Invoify prend en charge l'exportation des factures aux formats PDF, JSON, XLSX, CSV et XML."
-                },
-                {
-                    "question": "Mes données sont-elles sécurisées lors de l'utilisation d'Invoify ?",
-                    "answer": "Oui, vos données ne quittent jamais votre ordinateur. Toutes les informations de facturation sont stockées localement dans votre navigateur, garantissant une confidentialité totale."
-                },
-                {
-                    "question": "Puis-je personnaliser les modèles de facture ?",
-                    "answer": "Oui, Invoify propose plusieurs modèles professionnels que vous pouvez personnaliser avec votre logo, vos couleurs et d'autres détails."
-                },
-                {
-                    "question": "Quelles langues Invoify prend-il en charge ?",
-                    "answer": "Invoify prend en charge 14 langues, notamment le français, l'anglais, l'espagnol, l'allemand, le chinois et bien d'autres."
-                }
-            ]
-        }
-    },
-    "print": {
-        "title": "Aperçu avant impression",
-        "saveAsPdf": "Enregistrer au format PDF",
-        "print": "Imprimer",
-        "empty": {
-            "message": "Aucune donnée de facture trouvée pour l'impression. Retournez à l'éditeur pour créer ou enregistrer une facture, puis réessayez.",
-            "backToEditor": "Retour à l'éditeur"
-        }
+        "additionalNotes": "Notes supplémentaires",
+        "paymentTerms": "Conditions de paiement",
+        "discount": "Remise",
+        "tax": "Taxe",
+        "shipping": "Expédition",
+        "subTotal": "Sous-total",
+        "totalAmount": "Montant total",
+        "includeTotalInWords": "Inclure le total en mots?",
+        "yes": "Oui",
+        "no": "Non"
+      }
     }
+  },
+  "actions": {
+    "title": "Actions",
+    "description": "Opérations et aperçu",
+    "loadInvoice": "Charger la facture",
+    "exportInvoice": "Exporter la facture",
+    "newInvoice": "Nouvelle facture",
+    "generatePdf": "Générer un PDF",
+    "pdfView": "Vue PDF"
+  },
+  "footer": {
+    "developedBy": "Développé par"
+  },
+  "landing": {
+    "seo": {
+      "title": "Générateur de Factures Gratuit - Créez & Téléchargez des Factures PDF | Invoify",
+      "description": "Créez des factures professionnelles en quelques secondes avec le générateur de factures gratuit d'Invoify. Sans inscription. Choisissez un modèle, ajoutez votre logo et téléchargez instantanément en PDF. Parfait pour les auto-entrepreneurs & TPE.",
+      "keywords": [
+        "générateur de factures gratuit",
+        "modèle de facture",
+        "logiciel de facturation",
+        "créer une facture en ligne",
+        "facture en ligne",
+        "faire une facture",
+        "télécharger facture pdf",
+        "générateur de facture sans inscription",
+        "logiciel de facturation pour auto-entrepreneur",
+        "facture pour TPE",
+        "facture pour PME",
+        "modèles de facture professionnels",
+        "modèle de facture simple",
+        "facture avec TVA",
+        "modèle de facture proforma",
+        "modèle de facture de service",
+        "modèle de facture consultant",
+        "modèle de facture Word",
+        "modèle de facture Excel",
+        "modèle de facture Google Docs",
+        "créer facture en ligne avec logo",
+        "modèle de facture personnalisable",
+        "envoyer facture par email",
+        "meilleur logiciel de facturation gratuit 2025"
+      ]
+    },
+    "hero": {
+      "title": "Votre Générateur de Factures en Ligne et Gratuit",
+      "subtitle": "Créez, personnalisez et téléchargez des factures professionnelles en quelques secondes. Absolument gratuit, aucune inscription requise.",
+      "cta": "Créez Votre Facture Gratuite Maintenant",
+      "tryDemo": "Découvrez comment ça marche"
+    },
+    "features": {
+      "title": "Les Meilleures Fonctionnalités, Entièrement Gratuites",
+      "subtitle": "Tout ce dont vous avez besoin pour créer la facture parfaite pour votre activité",
+      "items": {
+        "free": {
+          "title": "100% Gratuit Pour Toujours",
+          "description": "Sans frais cachés, sans abonnements, sans limites. Créez et téléchargez des factures en illimité, entièrement gratuitement."
+        },
+        "templates": {
+          "title": "Modèles Personnalisables",
+          "description": "Choisissez parmi une variété de modèles professionnels. Ajoutez votre logo, sélectionnez vos couleurs et appropriez-le-vous."
+        },
+        "export": {
+          "title": "Téléchargements PDF Instantanés & Plus",
+          "description": "Téléchargez instantanément votre facture en PDF. Nous supportons également les formats JSON, XLSX, CSV et XML."
+        },
+        "preview": {
+          "title": "Aperçu de la Facture en Temps Réel",
+          "description": "Voyez votre facture prendre vie au fur et à mesure que vous écrivez. Plus de surprises, ce que vous voyez est ce que vous obtenez."
+        },
+        "storage": {
+          "title": "Stockage Local, Privé et Sécurisé",
+          "description": "Vos données sont sauvegardées en toute sécurité dans votre navigateur, pas sur nos serveurs. Vous êtes propriétaire de vos données."
+        },
+        "multilingual": {
+          "title": "Facturation Multilingue",
+          "description": "Créez des factures dans plus de 14 langues pour servir facilement vos clients internationaux."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Créez une Facture en 4 Étapes Simples",
+      "subtitle": "Passez de zéro à une facture professionnelle en moins d'une minute",
+      "steps": {
+        "step1": {
+          "title": "Choisissez un Modèle",
+          "description": "Sélectionnez un design professionnel qui correspond à votre marque."
+        },
+        "step2": {
+          "title": "Remplissez vos Informations",
+          "description": "Ajoutez vos coordonnées, celles du client et la liste des articles."
+        },
+        "step3": {
+          "title": "Personnalisez Votre Facture",
+          "description": "Ajoutez un logo, des taxes, des remises, des conditions de paiement, et plus encore."
+        },
+        "step4": {
+          "title": "Téléchargez ou Envoyez",
+          "description": "Téléchargez instantanément un PDF ou envoyez-le directement à votre client."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à vous faire Payer ?",
+      "subtitle": "Arrêtez de perdre du temps avec des logiciels compliqués. Créez votre facture professionnelle maintenant.",
+      "button": "Commencer Gratuitement"
+    },
+    "testimonials": {
+      "title": "Ce que Disent nos Utilisateurs",
+      "subtitle": "Approuvé par des milliers d'auto-entrepreneurs et de petites entreprises dans le monde",
+      "items": [
+        {
+          "quote": "Le meilleur générateur de factures gratuit que j'ai trouvé. Si simple et rapide, et j'adore le fait qu'aucune inscription n'est requise !",
+          "author": "Sarah J.",
+          "role": "Designer Freelance",
+          "rating": 5
+        },
+        {
+          "quote": "Pouvoir télécharger un modèle de facture PDF aussi facilement a été une bouée de sauvetage pour ma petite entreprise.",
+          "author": "Michel C.",
+          "role": "Gérant de TPE",
+          "rating": 5
+        },
+        {
+          "quote": "En tant que consultante, le support multilingue et les modèles professionnels changent la donne pour mes clients internationaux.",
+          "author": "Elena R.",
+          "role": "Consultante en Marketing",
+          "rating": 5
+        },
+        {
+          "quote": "Interface claire, facile à utiliser et entièrement gratuit. Que demander de plus ?",
+          "author": "David S.",
+          "role": "Développeur Freelance",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "Foire Aux Questions",
+      "subtitle": "Trouvez les réponses aux questions fréquentes sur notre outil de facturation gratuit",
+      "items": [
+        {
+          "question": "Ce générateur de factures en ligne est-il vraiment 100% gratuit ?",
+          "answer": "Oui, Invoify est entièrement gratuit. Il n'y a pas de frais cachés, d'abonnements ou de limites sur le nombre de factures que vous pouvez créer."
+        },
+        {
+          "question": "Dois-je m'inscrire pour créer une facture ?",
+          "answer": "Non, vous n'avez pas besoin de créer un compte. Vous pouvez commencer à créer votre facture immédiatement. Vos données sont stockées localement dans votre navigateur pour votre confidentialité et votre commodité."
+        },
+        {
+          "question": "Quelles informations doit contenir une facture d'auto-entrepreneur ?",
+          "answer": "Une facture professionnelle doit inclure un numéro de facture unique, vos coordonnées (avec SIREN), celles du client, la mention 'TVA non applicable, art. 293 B du CGI', une description des prestations, les dates, les montants et les conditions de paiement."
+        },
+        {
+          "question": "Puis-je ajouter mon logo sur les modèles de facture ?",
+          "answer": "Absolument. Vous pouvez facilement télécharger votre logo, et il apparaîtra sur n'importe quel modèle de facture professionnel que vous choisirez."
+        },
+        {
+          "question": "En quels formats puis-je télécharger ma facture ?",
+          "answer": "Vous pouvez télécharger instantanément votre facture en PDF de haute qualité. Nous prenons également en charge les exports vers JSON, XLSX (Excel), CSV et XML pour vos besoins comptables."
+        },
+        {
+          "question": "Mes données sont-elles en sécurité ?",
+          "answer": "Oui, vos données sont entièrement sécurisées. Toutes les informations sont stockées localement dans votre navigateur et ne sont jamais envoyées à nos serveurs, garantissant que les informations de votre entreprise et de vos clients restent privées."
+        }
+      ]
+    }
+  },
+  "print": {
+    "title": "Aperçu avant impression",
+    "saveAsPdf": "Enregistrer au format PDF",
+    "print": "Imprimer",
+    "empty": {
+      "message": "Aucune donnée de facture trouvée pour l'impression. Retournez à l'éditeur pour créer ou enregistrer une facture, puis réessayez.",
+      "backToEditor": "Retour à l'éditeur"
+    }
+  }
 }

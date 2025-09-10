@@ -1,247 +1,273 @@
 {
-    "form": {
-        "title": "发票",
-        "description": "创建发票",
-        "newInvBadge": "新发票",
-        "wizard": {
-            "fromAndTo": "发件人 & 收件人",
-            "invoiceDetails": "发票详情",
-            "lineItems": "项目明细",
-            "paymentInfo": "支付信息",
-            "summary": "摘要",
-            "next": "下一步",
-            "back": "返回"
-        },
-        "steps": {
-            "fromAndTo": {
-                "billFrom": "开票方",
-                "billTo": "收票方",
-                "name": "名称",
-                "address": "地址",
-                "zipCode": "邮编",
-                "city": "城市",
-                "country": "国家",
-                "email": "邮箱",
-                "phone": "电话",
-                "addCustomInput": "添加自定义输入",
-                "sender": "发件人",
-                "receiver": "收件人"
-            },
-            "invoiceDetails": {
-                "heading": "发票详情",
-                "invoiceLogo": {
-                    "label": "发票Logo",
-                    "placeholder": "点击上传图片"
-                },
-                "invoiceNumber": "发票编号",
-                "issuedDate": "开票日期",
-                "dueDate": "付款截止日",
-                "currency": "货币"
-            },
-            "lineItems": {
-                "heading": "项目明细",
-                "item": "项目",
-                "name": "名称",
-                "quantity": "数量",
-                "rate": "单价",
-                "total": "总价",
-                "description": "描述",
-                "addNewItem": "添加新项目",
-                "removeItem": "删除项目"
-            },
-            "paymentInfo": {
-                "heading": "支付信息",
-                "bankName": "银行名称",
-                "accountName": "账户名",
-                "accountNumber": "账号"
-            },
-            "summary": {
-                "heading": "摘要",
-                "signature": {
-                    "heading": "签名",
-                    "placeholder": "点击添加签名",
-                    "draw": "手写",
-                    "type": "输入",
-                    "upload": "上传"
-                },
-                "additionalNotes": "附加说明",
-                "paymentTerms": "付款条款",
-                "discount": "折扣",
-                "tax": "税费",
-                "shipping": "运费",
-                "subTotal": "小计",
-                "totalAmount": "总金额",
-                "includeTotalInWords": "用文字显示总金额？",
-                "yes": "是",
-                "no": "否"
-            }
-        }
+  "form": {
+    "title": "发票",
+    "description": "创建发票",
+    "newInvBadge": "新发票",
+    "wizard": {
+      "fromAndTo": "发件人 & 收件人",
+      "invoiceDetails": "发票详情",
+      "lineItems": "项目明细",
+      "paymentInfo": "支付信息",
+      "summary": "摘要",
+      "next": "下一步",
+      "back": "返回"
     },
-    "actions": {
-        "title": "操作",
-        "description": "处理与预览",
-        "loadInvoice": "加载发票",
-        "exportInvoice": "导出发票",
-        "newInvoice": "新建发票",
-        "generatePdf": "生成PDF",
-        "pdfView": "PDF视图"
-    },
-    "footer": {
-        "developedBy": "开发人员"
-    },
-    "landing": {
-        "seo": {
-            "title": "Invoify — 免费在线发票生成器 | 快速创建专业发票",
-            "description": "使用 Invoify 免费创建专业发票 —— 一个为自由职业者和中小企业打造的快速、无需注册的发票工具。提供多款专业模板与实时预览，支持将发票导出为 PDF、JSON、XLSX、CSV 或 XML。几分钟即可完成发票创建，可通过邮箱发送、在线打印，并支持多语言的简易 GST/VAT 税务发票。",
-            "keywords": [
-                "免费在线发票生成器",
-                "几分钟内创建专业发票",
-                "免费将发票下载为PDF",
-                "自由职业者发票模板",
-                "中小企业发票生成器",
-                "无需注册的发票生成器",
-                "多语言发票生成器",
-                "发票导出 JSON/XLSX/CSV/XML",
-                "网页版发票应用",
-                "2025最佳免费发票生成器",
-                "在线可打印发票模板",
-                "GST/VAT 税务发票生成器",
-                "承包商简易发票生成器",
-                "免费邮件发送发票",
-                "免费专业发票模板"
-            ]
+    "steps": {
+      "fromAndTo": {
+        "billFrom": "开票方",
+        "billTo": "收票方",
+        "name": "名称",
+        "address": "地址",
+        "zipCode": "邮编",
+        "city": "城市",
+        "country": "国家",
+        "email": "邮箱",
+        "phone": "电话",
+        "addCustomInput": "添加自定义输入",
+        "sender": "发件人",
+        "receiver": "收件人"
+      },
+      "invoiceDetails": {
+        "heading": "发票详情",
+        "invoiceLogo": {
+          "label": "发票Logo",
+          "placeholder": "点击上传图片"
         },
-        "hero": {
-            "title": "几分钟内创建专业发票",
-            "subtitle": "免费、快速且功能丰富的发票生成器。无需注册。",
-            "cta": "开始创建发票",
-            "tryDemo": "试用演示"
+        "invoiceNumber": "发票编号",
+        "issuedDate": "开票日期",
+        "dueDate": "付款截止日",
+        "currency": "货币"
+      },
+      "lineItems": {
+        "heading": "项目明细",
+        "item": "项目",
+        "name": "名称",
+        "quantity": "数量",
+        "rate": "单价",
+        "total": "总价",
+        "description": "描述",
+        "addNewItem": "添加新项目",
+        "removeItem": "删除项目"
+      },
+      "paymentInfo": {
+        "heading": "支付信息",
+        "bankName": "银行名称",
+        "accountName": "账户名",
+        "accountNumber": "账号"
+      },
+      "summary": {
+        "heading": "摘要",
+        "signature": {
+          "heading": "签名",
+          "placeholder": "点击添加签名",
+          "draw": "手写",
+          "type": "输入",
+          "upload": "上传"
         },
-        "features": {
-            "title": "为什么选择Invoify？",
-            "subtitle": "创建专业发票所需的一切",
-            "items": {
-                "free": {
-                    "title": "完全免费",
-                    "description": "没有隐藏费用，没有订阅。免费创建无限量发票。"
-                },
-                "templates": {
-                    "title": "专业模板",
-                    "description": "从多个精美设计的发票模板中选择。"
-                },
-                "export": {
-                    "title": "多种导出格式",
-                    "description": "导出为PDF、JSON、XLSX、CSV或XML。直接通过电子邮件发送。"
-                },
-                "preview": {
-                    "title": "实时预览",
-                    "description": "在填写表单时实时查看发票更新。"
-                },
-                "storage": {
-                    "title": "本地存储",
-                    "description": "在浏览器中保存发票，方便访问和未来编辑。"
-                },
-                "multilingual": {
-                    "title": "多语言支持",
-                    "description": "使用完整的国际化功能创建多语言发票。"
-                }
-            }
-        },
-        "howItWorks": {
-            "title": "如何使用",
-            "subtitle": "创建发票的简单四步流程",
-            "steps": {
-                "step1": {
-                    "title": "输入详情",
-                    "description": "填写发件人和收件人信息"
-                },
-                "step2": {
-                    "title": "添加项目",
-                    "description": "添加带有数量和价格的明细项目"
-                },
-                "step3": {
-                    "title": "自定义",
-                    "description": "添加支付信息、税费和签名"
-                },
-                "step4": {
-                    "title": "导出与发送",
-                    "description": "下载PDF或通过电子邮件发送"
-                }
-            }
-        },
-        "cta": {
-            "title": "准备创建您的第一份发票？",
-            "subtitle": "加入数千名信任Invoify处理发票需求的用户",
-            "button": "立即开始"
-        },
-        "testimonials": {
-            "title": "用户评价",
-            "subtitle": "全球自由职业者和企业的信赖之选",
-            "items": [
-                {
-                    "quote": "Invoify简化了我的开票流程，我可以在几分钟内创建专业的发票！",
-                    "author": "王娟",
-                    "role": "自由设计师",
-                    "rating": 5
-                },
-                {
-                    "quote": "多种导出格式和本地存储功能为我节省了大量时间。强烈推荐！",
-                    "author": "李明",
-                    "role": "小型企业主",
-                    "rating": 5
-                },
-                {
-                    "quote": "作为一个与国际客户合作的人，多语言支持功能非常实用。",
-                    "author": "张玲",
-                    "role": "市场营销顾问",
-                    "rating": 4
-                },
-                {
-                    "quote": "界面清爽，操作简单，而且完全免费。还能要求什么呢？",
-                    "author": "陈宇",
-                    "role": "自由开发者",
-                    "rating": 5
-                }
-            ]
-        },
-        "faq": {
-            "title": "常见问题",
-            "subtitle": "查找关于Invoify的常见问题解答",
-            "items": [
-                {
-                    "question": "Invoify真的是免费使用的吗？",
-                    "answer": "是的，Invoify完全免费，没有隐藏费用或订阅要求。您可以免费创建无限数量的发票。"
-                },
-                {
-                    "question": "我需要创建账户才能使用Invoify吗？",
-                    "answer": "不需要，Invoify不要求注册。为了保护隐私，您的数据仅存储在您的浏览器中。"
-                },
-                {
-                    "question": "支持哪些导出格式？",
-                    "answer": "Invoify支持将发票导出为PDF、JSON、XLSX、CSV和XML格式。"
-                },
-                {
-                    "question": "使用Invoify时我的数据安全吗？",
-                    "answer": "是的，您的数据从不会离开您的计算机。所有发票信息都存储在您的浏览器中，确保完全的隐私保护。"
-                },
-                {
-                    "question": "我可以自定义发票模板吗？",
-                    "answer": "是的，Invoify提供多种专业模板，您可以使用自己的标志、颜色和其他详细信息进行自定义。"
-                },
-                {
-                    "question": "Invoify支持哪些语言？",
-                    "answer": "Invoify支持14种语言，包括中文、英语、西班牙语、法语、德语等。"
-                }
-            ]
-        }
-    },
-    "print": {
-        "title": "打印预览",
-        "saveAsPdf": "保存为 PDF",
-        "print": "打印",
-        "empty": {
-            "message": "没有找到可打印的发票数据。请返回编辑器创建或保存发票后再试一次。",
-            "backToEditor": "返回编辑器"
-        }
+        "additionalNotes": "附加说明",
+        "paymentTerms": "付款条款",
+        "discount": "折扣",
+        "tax": "税费",
+        "shipping": "运费",
+        "subTotal": "小计",
+        "totalAmount": "总金额",
+        "includeTotalInWords": "用文字显示总金额？",
+        "yes": "是",
+        "no": "否"
+      }
     }
+  },
+  "actions": {
+    "title": "操作",
+    "description": "处理与预览",
+    "loadInvoice": "加载发票",
+    "exportInvoice": "导出发票",
+    "newInvoice": "新建发票",
+    "generatePdf": "生成PDF",
+    "pdfView": "PDF视图"
+  },
+  "footer": {
+    "developedBy": "开发人员"
+  },
+  "landing": {
+    "seo": {
+      "title": "Invoify — 免费在线发票生成器 | 快速创建专业发票",
+      "description": "使用Invoify免费创建专业发票——一款专为自由职业者、承包商和小型企业设计的快速、免注册在线发票生成器。我们提供多种专业发票模板并支持实时预览，您可以将发票导出为PDF、JSON、XLSX、CSV或XML格式。只需几分钟即可生成发票，通过电子邮件发送或在线打印，轻松创建符合消费税(GST)/增值税(VAT)规范的税务发票。Invoify还支持多种模板需求，如小型企业免费发票模板、工时发票模板、服务发票模板、咨询发票模板、简约PDF发票模板和形式发票模板。",
+      "keywords": [
+        "免费在线发票生成器",
+        "在线制作专业发票",
+        "免费下载PDF发票",
+        "自由职业者发票模板",
+        "小型企业发票制作工具",
+        "免注册发票生成器",
+        "多语言发票生成器",
+        "导出JSON XLSX CSV XML发票",
+        "网页版发票App",
+        "2025年最佳免费发票生成器",
+        "在线打印发票模板",
+        "GST/VAT税务发票生成器",
+        "承包商简易发票创建工具",
+        "免费邮件发送发票",
+        "专业发票模板免费",
+        "小型企业免费发票模板",
+        "简约PDF发票模板",
+        "工时发票模板",
+        "服务发票模板",
+        "咨询发票模板",
+        "自由职业发票模板",
+        "空白发票模板",
+        "自定义发票模板",
+        "税务发票模板",
+        "GST发票模板",
+        "增值税发票模板",
+        "形式发票模板",
+        "商业发票模板",
+        "预付款发票模板",
+        "周期性发票模板",
+        "Excel发票模板",
+        "Word发票模板",
+        "谷歌文档发票模板",
+        "谷歌表格发票模板",
+        "免费在线创建发票",
+        "带logo的在线发票制作",
+        "可下载的发票模板",
+        "发票软件",
+        "在线开票",
+        "收据模板"
+      ]
+    },
+
+    "hero": {
+      "title": "分分钟创建专业发票",
+      "subtitle": "免费、快速、功能强大的发票生成器。无需注册。",
+      "cta": "开始创建发票",
+      "tryDemo": "试用演示"
+    },
+    "features": {
+      "title": "为什么选择 Invoify？",
+      "subtitle": "创建专业发票所需的一切功能",
+      "items": {
+        "free": {
+          "title": "完全免费",
+          "description": "无隐藏费用，无订阅。零成本创建无限量发票。"
+        },
+        "templates": {
+          "title": "专业模板",
+          "description": "提供多种设计精美的专业发票模板供您选择。"
+        },
+        "export": {
+          "title": "多种导出格式",
+          "description": "可导出为PDF、JSON、XLSX、CSV或XML格式，并支持通过邮件直接发送。"
+        },
+        "preview": {
+          "title": "实时预览",
+          "description": "在您填写表单时，可以实时看到发票的更新效果。"
+        },
+        "storage": {
+          "title": "本地存储",
+          "description": "将发票保存在您的浏览器中，方便未来随时访问和编辑。"
+        },
+        "multilingual": {
+          "title": "多语言支持",
+          "description": "通过完整的国际化支持，创建多种语言的发票。"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "如何使用",
+      "subtitle": "只需四步，轻松创建您的发票",
+      "steps": {
+        "step1": {
+          "title": "填写信息",
+          "description": "填写发件人和收件人的详细信息"
+        },
+        "step2": {
+          "title": "添加项目",
+          "description": "添加包含数量和价格的服务或产品项目"
+        },
+        "step3": {
+          "title": "自定义",
+          "description": "添加付款信息、税费和签名"
+        },
+        "step4": {
+          "title": "导出与发送",
+          "description": "下载PDF格式的发票或通过电子邮件发送"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好创建您的第一张发票了吗？",
+      "subtitle": "加入成千上万用户的行列，信赖Invoify满足您的发票需求",
+      "button": "立即开始"
+    },
+    "testimonials": {
+      "title": "用户评价",
+      "subtitle": "深受全球自由职业者和企业的信赖",
+      "items": [
+        {
+          "quote": "Invoify 简化了我的开票流程。现在我只需几分钟就能创建出专业发票！",
+          "author": "Sarah Johnson",
+          "role": "自由设计师",
+          "rating": 5
+        },
+        {
+          "quote": "多种导出格式和本地存储功能为我节省了大量时间。强烈推荐！",
+          "author": "Michael Chen",
+          "role": "小企业主",
+          "rating": 5
+        },
+        {
+          "quote": "对于需要和国际客户打交道的我来说，多语言支持功能简直是颠覆性的。",
+          "author": "Elena Rodriguez",
+          "role": "市场营销顾问",
+          "rating": 4
+        },
+        {
+          "quote": "界面清爽，简单易用，而且完全免费。你还能要求什么呢？",
+          "author": "David Smith",
+          "role": "自由开发者",
+          "rating": 5
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "查找有关 Invoify 的常见问题解答",
+      "items": [
+        {
+          "question": "Invoify 是真的免费吗？",
+          "answer": "是的，Invoify 完全免费，没有任何隐藏费用或订阅要求。您可以零成本创建无限量的发票。"
+        },
+        {
+          "question": "使用 Invoify 需要注册账户吗？",
+          "answer": "不需要，Invoify 无需注册。为了保护您的隐私，您的所有数据都存储在您本地的浏览器中。"
+        },
+        {
+          "question": "支持哪些导出格式？",
+          "answer": "Invoify 支持将发票导出为 PDF、JSON、XLSX、CSV 和 XML 格式。"
+        },
+        {
+          "question": "使用 Invoify 我的数据安全吗？",
+          "answer": "是的，您的数据永远不会离开您的电脑。所有发票信息都存储在您本地的浏览器中，确保了绝对的隐私安全。"
+        },
+        {
+          "question": "我可以自定义发票模板吗？",
+          "answer": "可以，Invoify 提供多种专业模板，您可以使用自己的Logo、颜色和其他细节进行个性化定制。"
+        },
+        {
+          "question": "Invoify 支持哪些语言？",
+          "answer": "Invoify 支持包括中文、英语、西班牙语、法语、德语等在内的14种语言。"
+        }
+      ]
+    }
+  },
+  "print": {
+    "title": "打印预览",
+    "saveAsPdf": "保存为 PDF",
+    "print": "打印",
+    "empty": {
+      "message": "没有找到可打印的发票数据。请返回编辑器创建或保存发票后再试一次。",
+      "backToEditor": "返回编辑器"
+    }
+  }
 }
